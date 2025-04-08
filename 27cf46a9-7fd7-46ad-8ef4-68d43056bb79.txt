@@ -1,0 +1,313 @@
+
+Game rules: {'player_num': 2, 'rule': {'initial_stack': 100, 'max_round': 10, 'small_blind_amount': 5, 'ante': 0, 'blind_structure': {}}, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 100, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 100, 'state': 'participating'}]}
+return '+' if you understand
+
++
+
+    Round count: 1
+    Your cards: ['D5', 'C5']
+    Seats: [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 90, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 95, 'state': 'participating'}]
+    return '+' if you understand
+    
++
+
+        Street: preflop
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 15}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 90, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 95, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 10}, {'action': 'raise', 'amount': {'min': 15, 'max': 100}}]
+Your cards: ['D5', 'C5']
+Your stack: 95
+Game info: {'street': 'preflop', 'pot': {'main': {'amount': 15}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 90, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 95, 'state': 'participating'}]}
+Return your action
+
+r 20
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'raise', 'amount': 20}
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 90, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 20}
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+        Street: flop
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': []}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 10, 'max': 80}}]
+Your cards: ['D5', 'C5']
+Your stack: 80
+Game info: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}]}
+Return your action
+
+c
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+        Street: turn
+        Round state: {'street': 'turn', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': []}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 10, 'max': 80}}]
+Your cards: ['D5', 'C5']
+Your stack: 80
+Game info: {'street': 'turn', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}]}
+Return your action
+
+c
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'turn', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'turn', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+        Street: river
+        Round state: {'street': 'river', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2', 'S6'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': []}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 10, 'max': 80}}]
+Your cards: ['D5', 'C5']
+Your stack: 80
+Game info: {'street': 'river', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2', 'S6'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}]}
+Return your action
+
+c
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'river', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2', 'S6'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'river', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2', 'S6'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 80, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+          Winners: [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 120, 'state': 'participating'}]
+          Hand info: [{'uuid': 'ekeywanuwdjvglxjunoais', 'hand': {'hand': {'strength': 'TWOPAIR', 'high': 6, 'low': 2}, 'hole': {'high': 6, 'low': 3}}}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'hand': {'hand': {'strength': 'TWOPAIR', 'high': 5, 'low': 2}, 'hole': {'high': 5, 'low': 5}}}]
+          Round state: {'street': 'showdown', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H8', 'H4', 'S2', 'D2', 'S6'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 120, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 80, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+          return '+' if you understand
+          
++
+
+    Round count: 2
+    Your cards: ['DJ', 'CQ']
+    Seats: [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 115, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 70, 'state': 'participating'}]
+    return '+' if you understand
+    
++
+
+        Street: preflop
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 15}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 115, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 70, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 10}
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 20}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 110, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 70, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 10, 'paid': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 10}, {'action': 'raise', 'amount': {'min': 15, 'max': 80}}]
+Your cards: ['DJ', 'CQ']
+Your stack: 70
+Game info: {'street': 'preflop', 'pot': {'main': {'amount': 20}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 110, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 70, 'state': 'participating'}]}
+Return your action
+
+r 25
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'raise', 'amount': 25}
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 35}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 110, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 55, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 10, 'paid': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 25}
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 50}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 55, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 10, 'paid': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 25, 'paid': 15, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+        Street: flop
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 50}, 'side': []}, 'community_card': ['SK', 'H8', 'H7'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 55, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 10, 'paid': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 25, 'paid': 15, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': []}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'raise', 'amount': 10}
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 60}, 'side': []}, 'community_card': ['SK', 'H8', 'H7'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 85, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 55, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 10, 'paid': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 25, 'paid': 15, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'RAISE', 'amount': 10, 'paid': 10, 'add_amount': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 10}, {'action': 'raise', 'amount': {'min': 20, 'max': 55}}]
+Your cards: ['DJ', 'CQ']
+Your stack: 55
+Game info: {'street': 'flop', 'pot': {'main': {'amount': 60}, 'side': []}, 'community_card': ['SK', 'H8', 'H7'], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 85, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 55, 'state': 'participating'}]}
+Return your action
+
+f
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'fold', 'amount': 0}
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 60}, 'side': []}, 'community_card': ['SK', 'H8', 'H7'], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 85, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 55, 'state': 'folded'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 10, 'paid': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 25, 'paid': 15, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'RAISE', 'amount': 10, 'paid': 10, 'add_amount': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'FOLD', 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+          Winners: [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 145, 'state': 'participating'}]
+          Hand info: []
+          Round state: {'street': 'showdown', 'pot': {'main': {'amount': 60}, 'side': []}, 'community_card': ['SK', 'H8', 'H7', 'C4', 'C6'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 145, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 55, 'state': 'folded'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 10, 'paid': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 25, 'paid': 15, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'RAISE', 'amount': 10, 'paid': 10, 'add_amount': 10, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'FOLD', 'uuid': 'jjhysdtktmufjtwdzmlurd'}], 'turn': []}}
+          return '+' if you understand
+          
++
+
+    Round count: 3
+    Your cards: ['DK', 'DT']
+    Seats: [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 135, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 50, 'state': 'participating'}]
+    return '+' if you understand
+    
++
+
+        Street: preflop
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 15}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 135, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 50, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 10}, {'action': 'raise', 'amount': {'min': 15, 'max': 55}}]
+Your cards: ['DK', 'DT']
+Your stack: 50
+Game info: {'street': 'preflop', 'pot': {'main': {'amount': 15}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 135, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 50, 'state': 'participating'}]}
+Return your action
+
+r 50
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'raise', 'amount': 50}
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 60}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 135, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 50}
+        Round state: {'street': 'preflop', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+        Street: flop
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': []}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': -1, 'max': -1}}]
+Your cards: ['DK', 'DT']
+Your stack: 5
+Game info: {'street': 'flop', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}]}
+Return your action
+
+c
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'flop', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+        Street: turn
+        Round state: {'street': 'turn', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': []}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': -1, 'max': -1}}]
+Your cards: ['DK', 'DT']
+Your stack: 5
+Game info: {'street': 'turn', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}]}
+Return your action
+
+c
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'turn', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'turn', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+        Street: river
+        Round state: {'street': 'river', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5', 'D4'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': []}}
+        return '+' if you understand
+        
++
+
+Valid actions: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': -1, 'max': -1}}]
+Your cards: ['DK', 'DT']
+Your stack: 5
+Game info: {'street': 'river', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5', 'D4'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}]}
+Return your action
+
+c
+
+        New action: {'player_uuid': 'jjhysdtktmufjtwdzmlurd', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'river', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5', 'D4'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}]}}
+        return '+' if you understand
+        
++
+
+        New action: {'player_uuid': 'ekeywanuwdjvglxjunoais', 'action': 'call', 'amount': 0}
+        Round state: {'street': 'river', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5', 'D4'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 95, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+        return '+' if you understand
+        
++
+
+          Winners: [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 195, 'state': 'participating'}]
+          Hand info: [{'uuid': 'ekeywanuwdjvglxjunoais', 'hand': {'hand': {'strength': 'TWOPAIR', 'high': 5, 'low': 4}, 'hole': {'high': 4, 'low': 3}}}, {'uuid': 'jjhysdtktmufjtwdzmlurd', 'hand': {'hand': {'strength': 'ONEPAIR', 'high': 5, 'low': 0}, 'hole': {'high': 13, 'low': 10}}}]
+          Round state: {'street': 'showdown', 'pot': {'main': {'amount': 100}, 'side': []}, 'community_card': ['S2', 'D5', 'S9', 'C5', 'D4'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 5, 'seats': [{'name': 'human_player', 'uuid': 'ekeywanuwdjvglxjunoais', 'stack': 195, 'state': 'participating'}, {'name': 'deepseek_player', 'uuid': 'jjhysdtktmufjtwdzmlurd', 'stack': 5, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'uuid': 'ekeywanuwdjvglxjunoais'}, {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 50, 'paid': 40, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}], 'river': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'jjhysdtktmufjtwdzmlurd'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': 'ekeywanuwdjvglxjunoais'}]}}
+          return '+' if you understand
+          
++
