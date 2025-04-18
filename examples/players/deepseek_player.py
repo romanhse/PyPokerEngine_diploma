@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import requests
 from uuid import uuid4
+from pypokerengine.players import BasePokerPlayer
 import datetime
 
 load_dotenv()
@@ -73,37 +74,36 @@ class DeepSeekChat:
 SYSTEM_PROMT = """
 You are a professional poker player. Firstly, you receive the rules of the game. 
 Then, for each round you receive all available information, based on which you have to make decision
-You can either fold - then you return "f", call - then you return "c", or raise - then you return "r amount", like "r 50"
+You can either call - then you return "c", fold - then you return "f", or raise - then you return "r amount", like "r 50"
 YOUR RESPONSE ALWAYS HAS TO BE ONLY OF FORM "f", "c" OR "r __amount__", NO OTHER SYMBOLS ARE AVAILABLE
 DO NOT FOLD IF YOU CAN CALL FOR FREE!!!
 """
 api_key = os.getenv('API_KEY')
 
 
-import pypokerengine.utils.visualize_utils as U
-from pypokerengine.players import BasePokerPlayer
+
 
 class DeepseekPlayer(BasePokerPlayer):
 
-  def __init__(self, input_receiver=None):
-    #self.input_receiver = input_receiver if input_receiver else self.__gen_raw_input_wrapper()
+  def __init__(self):
     self.chat = DeepSeekChat(api_key, SYSTEM_PROMT)
+    self.my_uuid = None
     main_session = self.chat.create_session()
     print(f"Создан новый сеанс: {main_session}")
 
   def declare_action(self, valid_actions, hole_card, round_state):
-    # print(U.visualize_declare_action(valid_actions, hole_card, round_state, self.uuid))
-    for i in round_state['seats']:
-        if i['name'] == 'deepseek_player':
-            available_amount = int(i['stack'])
+    seats = self.get_seats(round_state['seats'])
     del round_state['action_histories']
     for j in round_state['seats']:
         del j['name']
     promt = f"""
 Valid actions: {valid_actions}
 Your cards: {hole_card}
-Your stack: {available_amount}
-Game info: {round_state}
+Game info: 
+pot:{round_state['pot']['main']['amount']}
+community cards: {round_state['community_card']}
+Your stack: {seats[0]}, your state: {seats[1]}
+Opponent stack: {seats[2]}, opponent state: {seats[3]}
 Return your action
 """
     response = self.chat.get_response(promt)
@@ -112,50 +112,83 @@ Return your action
     return action, amount
 
   def receive_game_start_message(self, game_info):
+    with open('deepseek.txt', 'a') as f:
+        f.write('100' + '\n')
+    with open('fair.txt', 'a') as k:
+        k.write('100' + '\n')
+
+
     promt = f"""
-Game rules: {game_info}
+Game rules: 
+№ of players: {game_info['player_num']}
+Initial stack: {game_info['rule']['initial_stack']}
+№ of rounds: {game_info['rule']['max_round']}
+Small blind: {game_info['rule']['small_blind_amount']} , big blind: {2*game_info['rule']['small_blind_amount']}
 return '+' if you understand
 """
     response = self.chat.get_response(promt)
+    for i in game_info['seats']:
+        if i['name'] == 'deepseek_player':
+            self.my_uuid = i['uuid']
     print(f'Deepseek response to game start {response}')
-    # print(U.visualize_game_start(game_info, self.uuid))
-    # self.__wait_until_input()
+
+  def get_seats(self, seats):
+      for i in seats:
+          if i['uuid'] == self.my_uuid:
+              our_amount = int(i['stack'])
+              our_state = i['state']
+          else:
+              opp_amount = int(i['stack'])
+              opp_state = i['state']
+      return [our_amount, our_state, opp_amount, opp_state]
   def receive_round_start_message(self, round_count, hole_card, seats):
+      seats = self.get_seats(seats)
       promt = f"""
-    Round count: {round_count}
-    Your cards: {hole_card}
-    Seats: {seats}
-    return '+' if you understand
-    """
+Round count: {round_count}
+Your cards: {hole_card}
+Your stack: {seats[0]}, your state: {seats[1]}
+Opponent stack: {seats[2]}, opponent state: {seats[3]}
+return '+' if you understand
+"""
       response = self.chat.get_response(promt)
       print(f'Deepseek response to round start {response}')
 
   def receive_street_start_message(self, street, round_state):
       promt = f"""
-        Street: {street}
-        Round state: {round_state}
-        return '+' if you understand
-        """
+Street: {street}
+Round state: 
+pot:{round_state['pot']['main']['amount']}
+community cards: {round_state['community_card']}
+return '+' if you understand
+"""
       response = self.chat.get_response(promt)
       print(f'Deepseek response to street start {response}')
 
   def receive_game_update_message(self, new_action, round_state):
-    pass
-    promt = f"""
-        New action: {new_action}
-        Round state: {round_state}
-        return '+' if you understand
-        """
-    response = self.chat.get_response(promt)
-    print(f'Deepseek response to round update {response}')
+    if new_action['player_uuid'] != self.my_uuid:
+        promt = f"""
+Your opponent declared action: {new_action['action']} with amount {new_action['amount']}
+return '+' if you understand
+"""
+        response = self.chat.get_response(promt)
+        print(f'Deepseek response to round update {response}')
 
   def receive_round_result_message(self, winners, hand_info, round_state):
+      seats = self.get_seats(round_state['seats'])
+      with open('deepseek.txt', 'a') as f:
+          f.write(str(seats[0]) + '\n')
+      with open('fair.txt', 'a') as k:
+          k.write(str(seats[2]) + '\n')
+
+      if winners[0]['uuid'] == self.my_uuid:
+          winner = 'You'
+      else:
+          winner = 'Opponent'
       promt = f"""
-          Winners: {winners}
-          Hand info: {hand_info}
-          Round state: {round_state}
-          return '+' if you understand
-          """
+Winner: {winner}
+Hand info: {hand_info}
+return '+' if you understand
+"""
       response = self.chat.get_response(promt)
       print(f'Deepseek response to round results {response}')
 
