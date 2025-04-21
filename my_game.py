@@ -6,8 +6,11 @@ from examples.players.emulator_player import EmulatorPlayer
 from examples.players.honest_player import HonestPlayer
 
 config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
-config.register_player(name="emulator_player", algorithm=HonestPlayer())
+config.register_player(name="fair_player", algorithm=HonestPlayer())
 config.register_player(name="deepseek_player", algorithm=DeepseekPlayer())
-for i in range(10):
+for i in range(100):
     print(f'Start {i}')
-    game_result = start_poker(config, verbose=1)  # verbose=0 because game progress is visualized by ConsolePlayer
+    try:
+        game_result = start_poker(config, verbose=1)  # verbose=0 because game progress is visualized by ConsolePlayer
+    except Exception as e:
+        print(f'Simulation {i} failed due to {e}')

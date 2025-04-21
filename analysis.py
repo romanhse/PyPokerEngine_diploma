@@ -1,62 +1,7 @@
-# import matplotlib.pyplot as plt
-# import numpy as np
-#
-#
-# def read_data(filename):
-#     """Читает данные из файла и разбивает их на игры по 11 раундов."""
-#     with open(filename, 'r') as f:
-#         data = [float(line.strip()) for line in f]
-#     if len(data) != 110:
-#         raise ValueError(f"Ошибка: в файле {filename} должно быть 110 строк, найдено {len(data)}")
-#     # Разделяем данные на 10 игр по 11 значений
-#     games = [data[i * 11: (i + 1) * 11] for i in range(10)]
-#     return games
-#
-#
-# def plot_player(games, player_name):
-#     """Строит графики для игрока: все игры и среднее значение."""
-#     plt.figure(figsize=(12, 6))
-#     rounds = np.arange(1, 12)  # Раунды от 1 до 11
-#
-#     # Рисуем все игры полупрозрачными линиями
-#     for i, game in enumerate(games):
-#         plt.plot(rounds, game, color='blue', alpha=0.2, linewidth=1,
-#                  label='Отдельные игры' if i == 0 else "")
-#
-#     # Рассчитываем и рисуем среднее по играм
-#     avg_balance = np.mean(games, axis=0)
-#     plt.plot(rounds, avg_balance, color='red', linewidth=3,
-#              label='Среднее по играм', marker='o')
-#
-#     plt.title(f'Игрок {player_name}: Динамика баланса по раундам')
-#     plt.xlabel('Номер раунда')
-#     plt.ylabel('Баланс')
-#     plt.xticks(rounds)
-#     plt.grid(True, linestyle='--', alpha=0.7)
-#     plt.legend()
-#     plt.tight_layout()
-#     plt.savefig(f'player_{player_name}.png')  # Сохраняем график в файл
-#     plt.close()
-#
-#
-# # Основная часть программы
-# if __name__ == "__main__":
-#     players = ['deepseek.txt', 'fair.txt']  # Укажите пути к вашим файлам
-#
-#     for idx, player_file in enumerate(players, start=1):
-#         try:
-#             games = read_data(player_file)
-#             plot_player(games, str(idx))
-#             print(f"График для игрока {idx} сохранен как 'player_{idx}.png'")
-#         except FileNotFoundError:
-#             print(f"Файл {player_file} не найден!")
-#         except ValueError as e:
-#             print(e)
-
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-
+from matplotlib.cm import get_cmap
 
 def read_data(filename, num_rounds):
     """Читает данные из файла и разбивает их на игры по указанному количеству раундов."""
@@ -74,37 +19,114 @@ def read_data(filename, num_rounds):
 
 
 def plot_player(games, filename, num_rounds):
-    """Строит графики для игрока и сохраняет с именем исходного файла."""
+    """Строит графики с динамическим количеством раундов"""
     plt.figure(figsize=(12, 6))
-    rounds = np.arange(1, num_rounds + 1)
 
-    # Отдельные игры
+    # Находим максимальное количество раундов
+    max_rounds = max(len(game) for game in games) if games else 0
+
+    # Рисуем все игры
     for game in games:
+        rounds = np.arange(1, len(game) + 1)
         plt.plot(rounds, game, color='blue', alpha=0.2, linewidth=1,
                  label='Отдельные игры' if not plt.gca().lines else "")
 
-    # Среднее значение
-    avg_balance = np.mean(games, axis=0)
-    plt.plot(rounds, avg_balance, color='red', linewidth=3,
-             label='Среднее по играм', marker='o')
+    # Рассчитываем среднее с учетом разной длины
+    avg_balance = []
+    for round_num in range(1, max_rounds + 1):
+        round_values = []
+        for game in games:
+            if len(game) >= round_num:
+                round_values.append(game[round_num - 1])
+        if round_values:
+            avg_balance.append(np.mean(round_values))
 
-    # Формируем название из имени файла
+    # Рисуем среднее
+    if avg_balance:
+        plt.plot(range(1, len(avg_balance) + 1), avg_balance,
+                 color='red', linewidth=3, label='Среднее по играм', marker='o')
+
+    # Форматирование графика
     base_name = os.path.splitext(os.path.basename(filename))[0]
-    plt.title(f'Игрок {base_name}: Динамика баланса по раундам')
+    plt.title(f'Динамика баланса ({base_name})')
     plt.xlabel('Номер раунда')
     plt.ylabel('Баланс')
-    plt.xticks(rounds)
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.legend()
-    plt.tight_layout()
 
-    # Сохраняем график
-    output_name = f"{base_name}.png"
+    # Сохранение
+    output_name = f"{base_name}_graph.png"
     plt.savefig(output_name)
     plt.close()
     return output_name
 
 
+def plot_round_evolution(games, filename):
+    """Строит график эволюции баланса в раундах между играми"""
+    plt.figure(figsize=(14, 8))
+
+    # Определяем параметры данных
+    max_rounds = max(len(game) for game in games) if games else 0
+    num_games = len(games)
+
+    if max_rounds == 0 or num_games == 0:
+        return None
+
+    # Создаем матрицу данных: [раунды][игры]
+    round_matrix = []
+    for r in range(max_rounds):
+        round_values = []
+        for g_idx, game in enumerate(games):
+            if r < len(game):
+                round_values.append(game[r])
+            else:
+                round_values.append(np.nan)
+        round_matrix.append(round_values)
+
+    # Настройка визуализации
+    cmap = get_cmap('tab20')
+    colors = [cmap(i % 20) for i in range(max_rounds)]
+    x_vals = np.arange(1, num_games + 1)
+
+    # Рисуем линии для каждого раунда
+    for round_idx in range(max_rounds):
+        y_vals = np.array(round_matrix[round_idx])
+        valid = ~np.isnan(y_vals)
+
+        if np.any(valid):
+            plt.plot(x_vals[valid], y_vals[valid],
+                     color=colors[round_idx],
+                     marker='o',
+                     linestyle='--' if round_idx % 2 else '-',
+                     alpha=0.7,
+                     label=f'Round {round_idx + 1}')
+
+    # Форматирование графика
+    base_name = os.path.splitext(os.path.basename(filename))[0]
+    plt.title(f'Эволюция баланса по играм ({base_name})\n'
+              f'Каждая линия показывает динамику конкретного раунда')
+    plt.xlabel('Номер игры')
+    plt.ylabel('Баланс')
+    plt.grid(True, alpha=0.3)
+
+    # Интеллектуальное отображение легенды
+    if max_rounds <= 15:
+        plt.legend(bbox_to_anchor=(1.05, 1),
+                   loc='upper left',
+                   title="Раунды:")
+    else:
+        plt.colorbar(plt.cm.ScalarMappable(cmap=cmap),
+                     orientation='vertical',
+                     label='Номер раунда',
+                     boundaries=np.arange(max_rounds + 1))
+
+    # Сохранение
+    output_name = f"{base_name}_round_evolution.png"
+    plt.tight_layout()
+    plt.savefig(output_name, dpi=300)
+    plt.close()
+
+    return output_name
 # Конфигурация (можно менять эти параметры)
 NUM_ROUNDS = 11  # Количество раундов в одной игре
 PLAYER_FILES = [  # Пути к файлам с данными игроков
@@ -116,7 +138,46 @@ if __name__ == "__main__":
     for player_file in PLAYER_FILES:
         try:
             games = read_data(player_file, NUM_ROUNDS)
+            new_game = [float(100)]
+            with open('logs.txt', 'r') as f:
+                for line in f:
+                    if 'won the round' in line:
+                        line = line.split()
+                        round = int(line[4])
+                        deepseek = float(line[-1][:-2])
+                        fair = float(line[-3][:-1])
+                        if player_file == 'deepseek.txt':
+                            if round == 10 or fair == 0 or deepseek == 0:
+                                new_game.append(deepseek)
+                                games.append(new_game)
+                                new_game = [float(100)]
+                            else:
+                                new_game.append(deepseek)
+                        else:
+                            if round == 10 or fair == 0 or deepseek == 0:
+                                new_game.append(fair)
+                                games.append(new_game)
+                                new_game = [float(100)]
+                            else:
+                                new_game.append(fair)
+            if player_file == 'deepseek.txt':
+                n = 'deepseek'
+            else:
+                n = 'fair'
+            win_g = []
+            early_win = 0
+            print(f'# of games: {len(games)}')
+            for game in games:
+                win_g.append(game[-1])
+                if game[-1] == float(200):
+                    early_win += 1
+                if game[0] != float(100):
+                    print(game)
+            print(f'Avg {n} last round: {sum(win_g) / len(win_g)}')
+            print(f'# of early wins of {n} is {early_win}')
+            # print(games)
             output = plot_player(games, player_file, NUM_ROUNDS)
+            output_evolution = plot_round_evolution(games, player_file)
             print(f"График сохранен как: {output}")
 
         except FileNotFoundError:
