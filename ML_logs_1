@@ -1,0 +1,4005 @@
+C:\Users\Александр\Desktop\Учеба\PyPokerEngine_diploma\venv\Scripts\python.exe C:\Users\Александр\Desktop\Учеба\PyPokerEngine_diploma\wrf2.py
+
+🎮 Game 1/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 2/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 3/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 4/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F62F0>
+💰 Trainer's stack: 1170
+
+🎮 Game 5/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 840
+
+🎮 Game 6/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A582E0>
+💰 Trainer's stack: 1130
+
+🎮 Game 7/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1140
+
+🎮 Game 8/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 810
+
+🎮 Game 9/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 1170
+
+🎮 Game 10/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A597B0>
+💰 Trainer's stack: 0
+
+🎮 Game 11/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5A80>
+💰 Trainer's stack: 910
+
+🎮 Game 12/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1040
+
+🎮 Game 13/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 14/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1100
+
+🎮 Game 15/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 950
+
+🎮 Game 16/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 760
+
+🎮 Game 17/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1080
+
+🎮 Game 18/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 19/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 20/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 1330
+
+🎮 Game 21/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1180
+
+🎮 Game 22/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A589A0>
+💰 Trainer's stack: 0
+
+🎮 Game 23/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1992
+
+🎮 Game 24/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1210
+
+🎮 Game 25/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 630
+
+🎮 Game 26/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 960
+
+🎮 Game 27/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 28/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 29/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 690
+
+🎮 Game 30/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1130
+
+🎮 Game 31/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5ED0>
+💰 Trainer's stack: 440
+
+🎮 Game 32/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 33/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 890
+
+🎮 Game 34/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A58130>
+💰 Trainer's stack: 720
+
+🎮 Game 35/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 36/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 37/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 38/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A581F0>
+💰 Trainer's stack: 1150
+
+🎮 Game 39/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 40/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 600
+
+🎮 Game 41/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1270
+
+🎮 Game 42/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 43/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 44/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 0
+
+🎮 Game 45/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 46/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A582E0>
+💰 Trainer's stack: 990
+
+🎮 Game 47/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 48/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1130
+
+🎮 Game 49/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 940
+
+🎮 Game 50/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 51/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1270
+
+🎮 Game 52/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 0
+
+🎮 Game 53/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 54/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A589A0>
+💰 Trainer's stack: 0
+
+🎮 Game 55/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1996
+
+🎮 Game 56/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 57/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 58/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59600>
+💰 Trainer's stack: 0
+
+🎮 Game 59/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 890
+
+🎮 Game 60/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1992
+
+🎮 Game 61/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 62/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 1080
+
+🎮 Game 63/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 64/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1200
+
+🎮 Game 65/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1330
+
+🎮 Game 66/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 67/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1994
+
+🎮 Game 68/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 0
+
+🎮 Game 69/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 970
+
+🎮 Game 70/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 720
+
+🎮 Game 71/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 1030
+
+🎮 Game 72/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 930
+
+🎮 Game 73/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 74/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 75/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 0
+
+🎮 Game 76/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1994
+
+🎮 Game 77/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 78/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1370
+
+🎮 Game 79/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1985
+
+🎮 Game 80/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 1060
+
+🎮 Game 81/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1991
+
+🎮 Game 82/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1250
+
+🎮 Game 83/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 950
+
+🎮 Game 84/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59BD0>
+💰 Trainer's stack: 0
+
+🎮 Game 85/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 86/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 750
+
+🎮 Game 87/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F6800>
+💰 Trainer's stack: 0
+
+🎮 Game 88/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 980
+
+🎮 Game 89/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5D80>
+💰 Trainer's stack: 0
+
+🎮 Game 90/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 91/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 740
+
+🎮 Game 92/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 0
+
+🎮 Game 93/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1040
+
+🎮 Game 94/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 95/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1130
+
+🎮 Game 96/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1030
+
+🎮 Game 97/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 0
+
+🎮 Game 98/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 99/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 830
+
+🎮 Game 100/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 101/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1260
+
+🎮 Game 102/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3F10>
+💰 Trainer's stack: 1370
+
+🎮 Game 103/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A582E0>
+💰 Trainer's stack: 1070
+
+🎮 Game 104/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5D20>
+💰 Trainer's stack: 810
+
+🎮 Game 105/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7F10>
+💰 Trainer's stack: 1170
+
+🎮 Game 106/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1290
+
+🎮 Game 107/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 108/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 109/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 0
+
+🎮 Game 110/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 870
+
+🎮 Game 111/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3F10>
+💰 Trainer's stack: 0
+
+🎮 Game 112/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 910
+
+🎮 Game 113/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 1170
+
+🎮 Game 114/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59AE0>
+💰 Trainer's stack: 940
+
+🎮 Game 115/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1380
+
+🎮 Game 116/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 117/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 118/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 1200
+
+🎮 Game 119/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 120/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 830
+
+🎮 Game 121/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1994
+
+🎮 Game 122/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 930
+
+🎮 Game 123/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 1981
+
+🎮 Game 124/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 125/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 126/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58130>
+💰 Trainer's stack: 1993
+
+🎮 Game 127/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1190
+
+🎮 Game 128/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 129/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1030
+
+🎮 Game 130/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58130>
+💰 Trainer's stack: 0
+
+🎮 Game 131/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1100
+
+🎮 Game 132/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 700
+
+🎮 Game 133/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 990
+
+🎮 Game 134/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1050
+
+🎮 Game 135/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 1990
+
+🎮 Game 136/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1050
+
+🎮 Game 137/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F62F0>
+💰 Trainer's stack: 0
+
+🎮 Game 138/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1320
+
+🎮 Game 139/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 140/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 141/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 142/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59540>
+💰 Trainer's stack: 0
+
+🎮 Game 143/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 144/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 145/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3F10>
+💰 Trainer's stack: 1380
+
+🎮 Game 146/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 147/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 148/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1190
+
+🎮 Game 149/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 940
+
+🎮 Game 150/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD55D0>
+💰 Trainer's stack: 0
+
+🎮 Game 151/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1996
+
+🎮 Game 152/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 820
+
+🎮 Game 153/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 700
+
+🎮 Game 154/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 155/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 0
+
+🎮 Game 156/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 870
+
+🎮 Game 157/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58910>
+💰 Trainer's stack: 0
+
+🎮 Game 158/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 1260
+
+🎮 Game 159/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 160/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1020
+
+🎮 Game 161/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 162/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 1280
+
+🎮 Game 163/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 320
+
+🎮 Game 164/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7F10>
+💰 Trainer's stack: 930
+
+🎮 Game 165/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 166/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD55D0>
+💰 Trainer's stack: 0
+
+🎮 Game 167/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1160
+
+🎮 Game 168/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 169/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58910>
+💰 Trainer's stack: 0
+
+🎮 Game 170/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 940
+
+🎮 Game 171/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 450
+
+🎮 Game 172/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7F10>
+💰 Trainer's stack: 650
+
+🎮 Game 173/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 930
+
+🎮 Game 174/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD55D0>
+💰 Trainer's stack: 0
+
+🎮 Game 175/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1210
+
+🎮 Game 176/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1070
+
+🎮 Game 177/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1010
+
+🎮 Game 178/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 179/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 860
+
+🎮 Game 180/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 980
+
+🎮 Game 181/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 182/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5A80>
+💰 Trainer's stack: 1990
+
+🎮 Game 183/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 640
+
+🎮 Game 184/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1070
+
+🎮 Game 185/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 680
+
+🎮 Game 186/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5D80>
+💰 Trainer's stack: 0
+
+🎮 Game 187/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 188/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 2000
+
+🎮 Game 189/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1060
+
+🎮 Game 190/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 1340
+
+🎮 Game 191/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 192/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1030
+
+🎮 Game 193/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1050
+
+🎮 Game 194/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A597B0>
+💰 Trainer's stack: 1320
+
+🎮 Game 195/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1130
+
+🎮 Game 196/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 197/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 198/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 0
+
+🎮 Game 199/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 850
+
+🎮 Game 200/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 201/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5D20>
+💰 Trainer's stack: 630
+
+🎮 Game 202/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 203/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 380
+
+🎮 Game 204/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59540>
+💰 Trainer's stack: 0
+
+🎮 Game 205/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1080
+
+🎮 Game 206/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 980
+
+🎮 Game 207/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1140
+
+🎮 Game 208/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 920
+
+🎮 Game 209/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 210/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1220
+
+🎮 Game 211/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 212/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 213/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5D20>
+💰 Trainer's stack: 0
+
+🎮 Game 214/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 215/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 0
+
+🎮 Game 216/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 217/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 218/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7FD0>
+💰 Trainer's stack: 1997
+
+🎮 Game 219/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 990
+
+🎮 Game 220/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A59AE0>
+💰 Trainer's stack: 920
+
+🎮 Game 221/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 0
+
+🎮 Game 222/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 950
+
+🎮 Game 223/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1030
+
+🎮 Game 224/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 690
+
+🎮 Game 225/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 690
+
+🎮 Game 226/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1150
+
+🎮 Game 227/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 1996
+
+🎮 Game 228/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1991
+
+🎮 Game 229/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 1130
+
+🎮 Game 230/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 231/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 232/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 700
+
+🎮 Game 233/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 0
+
+🎮 Game 234/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 1090
+
+🎮 Game 235/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1140
+
+🎮 Game 236/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 890
+
+🎮 Game 237/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 238/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A59BA0>
+💰 Trainer's stack: 1050
+
+🎮 Game 239/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 240/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD55D0>
+💰 Trainer's stack: 0
+
+🎮 Game 241/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 0
+
+🎮 Game 242/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 243/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1090
+
+🎮 Game 244/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 0
+
+🎮 Game 245/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 1110
+
+🎮 Game 246/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58070>
+💰 Trainer's stack: 0
+
+🎮 Game 247/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3F10>
+💰 Trainer's stack: 740
+
+🎮 Game 248/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 1989
+
+🎮 Game 249/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 250/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59C00>
+💰 Trainer's stack: 0
+
+🎮 Game 251/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 252/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 253/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1540
+
+🎮 Game 254/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58070>
+💰 Trainer's stack: 0
+
+🎮 Game 255/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 256/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5D20>
+💰 Trainer's stack: 0
+
+🎮 Game 257/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1020
+
+🎮 Game 258/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 980
+
+🎮 Game 259/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 950
+
+🎮 Game 260/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 1992
+
+🎮 Game 261/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 880
+
+🎮 Game 262/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59C00>
+💰 Trainer's stack: 0
+
+🎮 Game 263/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 820
+
+🎮 Game 264/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 980
+
+🎮 Game 265/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7F10>
+💰 Trainer's stack: 520
+
+🎮 Game 266/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58070>
+💰 Trainer's stack: 1270
+
+🎮 Game 267/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 1000
+
+🎮 Game 268/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 0
+
+🎮 Game 269/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1090
+
+🎮 Game 270/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A59C00>
+💰 Trainer's stack: 1130
+
+🎮 Game 271/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 530
+
+🎮 Game 272/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD55D0>
+💰 Trainer's stack: 0
+
+🎮 Game 273/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 0
+
+🎮 Game 274/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1130
+
+🎮 Game 275/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 276/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 277/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F64D0>
+💰 Trainer's stack: 1150
+
+🎮 Game 278/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A595D0>
+💰 Trainer's stack: 1160
+
+🎮 Game 279/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 840
+
+🎮 Game 280/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 281/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 970
+
+🎮 Game 282/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A597B0>
+💰 Trainer's stack: 0
+
+🎮 Game 283/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3F10>
+💰 Trainer's stack: 1140
+
+🎮 Game 284/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 1060
+
+🎮 Game 285/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 0
+
+🎮 Game 286/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 750
+
+🎮 Game 287/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 1240
+
+🎮 Game 288/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 1993
+
+🎮 Game 289/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F64D0>
+💰 Trainer's stack: 1190
+
+🎮 Game 290/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A595D0>
+💰 Trainer's stack: 1996
+
+🎮 Game 291/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 292/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 610
+
+🎮 Game 293/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1985
+
+🎮 Game 294/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A595D0>
+💰 Trainer's stack: 1991
+
+🎮 Game 295/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3F10>
+💰 Trainer's stack: 950
+
+🎮 Game 296/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1240
+
+🎮 Game 297/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 298/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 0
+
+🎮 Game 299/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1000
+
+🎮 Game 300/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 301/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 0
+
+🎮 Game 302/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 303/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1983
+
+🎮 Game 304/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 305/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 830
+
+🎮 Game 306/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 1110
+
+🎮 Game 307/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1230
+
+🎮 Game 308/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 309/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 1050
+
+🎮 Game 310/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 850
+
+🎮 Game 311/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1530
+
+🎮 Game 312/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A581F0>
+💰 Trainer's stack: 0
+
+🎮 Game 313/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1230
+
+🎮 Game 314/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6A40>
+💰 Trainer's stack: 1210
+
+🎮 Game 315/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1100
+
+🎮 Game 316/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 317/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 820
+
+🎮 Game 318/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F6A40>
+💰 Trainer's stack: 0
+
+🎮 Game 319/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 320/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 820
+
+🎮 Game 321/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 322/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 660
+
+🎮 Game 323/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1000
+
+🎮 Game 324/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 1180
+
+🎮 Game 325/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 870
+
+🎮 Game 326/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1310
+
+🎮 Game 327/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 328/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 329/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 930
+
+🎮 Game 330/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59AE0>
+💰 Trainer's stack: 1040
+
+🎮 Game 331/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 332/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 930
+
+🎮 Game 333/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 334/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59600>
+💰 Trainer's stack: 1010
+
+🎮 Game 335/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 1989
+
+🎮 Game 336/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 630
+
+🎮 Game 337/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1999
+
+🎮 Game 338/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 339/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 340/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 0
+
+🎮 Game 341/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 1140
+
+🎮 Game 342/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 0
+
+🎮 Game 343/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 780
+
+🎮 Game 344/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1060
+
+🎮 Game 345/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 880
+
+🎮 Game 346/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 0
+
+🎮 Game 347/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 348/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 349/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1140
+
+🎮 Game 350/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1750
+
+🎮 Game 351/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1260
+
+🎮 Game 352/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 1330
+
+🎮 Game 353/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 354/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1000
+
+🎮 Game 355/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 356/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 1210
+
+🎮 Game 357/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A588E0>
+💰 Trainer's stack: 0
+
+🎮 Game 358/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1080
+
+🎮 Game 359/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1981
+
+🎮 Game 360/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 970
+
+🎮 Game 361/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 362/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 363/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 2000
+
+🎮 Game 364/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1110
+
+🎮 Game 365/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1991
+
+🎮 Game 366/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 850
+
+🎮 Game 367/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 368/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 860
+
+🎮 Game 369/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 900
+
+🎮 Game 370/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 0
+
+🎮 Game 371/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1510
+
+🎮 Game 372/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 373/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A589A0>
+💰 Trainer's stack: 1270
+
+🎮 Game 374/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 375/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 920
+
+🎮 Game 376/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 790
+
+🎮 Game 377/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 950
+
+🎮 Game 378/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 0
+
+🎮 Game 379/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 820
+
+🎮 Game 380/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 1020
+
+🎮 Game 381/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1080
+
+🎮 Game 382/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1996
+
+🎮 Game 383/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 670
+
+🎮 Game 384/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 800
+
+🎮 Game 385/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3F10>
+💰 Trainer's stack: 0
+
+🎮 Game 386/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 720
+
+🎮 Game 387/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1230
+
+🎮 Game 388/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 720
+
+🎮 Game 389/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 390/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 391/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1170
+
+🎮 Game 392/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1170
+
+🎮 Game 393/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 840
+
+🎮 Game 394/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 770
+
+🎮 Game 395/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1260
+
+🎮 Game 396/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 0
+
+🎮 Game 397/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 398/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 1240
+
+🎮 Game 399/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 2000
+
+🎮 Game 400/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 401/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59C00>
+💰 Trainer's stack: 0
+
+🎮 Game 402/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1470
+
+🎮 Game 403/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1170
+
+🎮 Game 404/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 405/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 1070
+
+🎮 Game 406/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 407/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 750
+
+🎮 Game 408/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 409/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 800
+
+🎮 Game 410/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A582E0>
+💰 Trainer's stack: 0
+
+🎮 Game 411/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 412/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 700
+
+🎮 Game 413/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 920
+
+🎮 Game 414/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1080
+
+🎮 Game 415/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1180
+
+🎮 Game 416/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 417/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F64D0>
+💰 Trainer's stack: 0
+
+🎮 Game 418/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 780
+
+🎮 Game 419/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 750
+
+🎮 Game 420/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 1540
+
+🎮 Game 421/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 880
+
+🎮 Game 422/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 0
+
+🎮 Game 423/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 920
+
+🎮 Game 424/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 890
+
+🎮 Game 425/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7F10>
+💰 Trainer's stack: 1988
+
+🎮 Game 426/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 427/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 1140
+
+🎮 Game 428/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 0
+
+🎮 Game 429/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 430/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58FA0>
+💰 Trainer's stack: 1250
+
+🎮 Game 431/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 960
+
+🎮 Game 432/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1130
+
+🎮 Game 433/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F64D0>
+💰 Trainer's stack: 0
+
+🎮 Game 434/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 435/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 720
+
+🎮 Game 436/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 437/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1180
+
+🎮 Game 438/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1320
+
+🎮 Game 439/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1989
+
+🎮 Game 440/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1310
+
+🎮 Game 441/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 1330
+
+🎮 Game 442/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 520
+
+🎮 Game 443/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 0
+
+🎮 Game 444/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 920
+
+🎮 Game 445/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 1300
+
+🎮 Game 446/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 447/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A582E0>
+💰 Trainer's stack: 0
+
+🎮 Game 448/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 0
+
+🎮 Game 449/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 810
+
+🎮 Game 450/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 451/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1270
+
+🎮 Game 452/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 600
+
+🎮 Game 453/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 740
+
+🎮 Game 454/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 1340
+
+🎮 Game 455/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 456/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 457/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 458/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1999
+
+🎮 Game 459/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 0
+
+🎮 Game 460/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 1991
+
+🎮 Game 461/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1992
+
+🎮 Game 462/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1981
+
+🎮 Game 463/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A588E0>
+💰 Trainer's stack: 1190
+
+🎮 Game 464/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 465/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 890
+
+🎮 Game 466/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 467/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A582E0>
+💰 Trainer's stack: 0
+
+🎮 Game 468/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 870
+
+🎮 Game 469/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 1060
+
+🎮 Game 470/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 870
+
+🎮 Game 471/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 472/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 700
+
+🎮 Game 473/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 474/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 475/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 950
+
+🎮 Game 476/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 870
+
+🎮 Game 477/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A58910>
+💰 Trainer's stack: 1250
+
+🎮 Game 478/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 1110
+
+🎮 Game 479/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 480/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 481/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58910>
+💰 Trainer's stack: 1000
+
+🎮 Game 482/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 970
+
+🎮 Game 483/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 1000
+
+🎮 Game 484/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 485/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 486/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5A80>
+💰 Trainer's stack: 0
+
+🎮 Game 487/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 450
+
+🎮 Game 488/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 1999
+
+🎮 Game 489/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59AE0>
+💰 Trainer's stack: 0
+
+🎮 Game 490/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 491/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 820
+
+🎮 Game 492/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 2000
+
+🎮 Game 493/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59C00>
+💰 Trainer's stack: 0
+
+🎮 Game 494/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5D80>
+💰 Trainer's stack: 880
+
+🎮 Game 495/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 2000
+
+🎮 Game 496/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 497/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 498/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 0
+
+🎮 Game 499/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 1995
+
+🎮 Game 500/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 970
+
+🎮 Game 501/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1480
+
+🎮 Game 502/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 0
+
+🎮 Game 503/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1040
+
+🎮 Game 504/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1030
+
+🎮 Game 505/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1200
+
+🎮 Game 506/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59600>
+💰 Trainer's stack: 0
+
+🎮 Game 507/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 1986
+
+🎮 Game 508/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 509/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 510/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 1380
+
+🎮 Game 511/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 512/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F6800>
+💰 Trainer's stack: 0
+
+🎮 Game 513/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1170
+
+🎮 Game 514/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A595D0>
+💰 Trainer's stack: 1100
+
+🎮 Game 515/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 516/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 1080
+
+🎮 Game 517/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 1997
+
+🎮 Game 518/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 840
+
+🎮 Game 519/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5A80>
+💰 Trainer's stack: 0
+
+🎮 Game 520/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 521/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 522/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1350
+
+🎮 Game 523/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F6800>
+💰 Trainer's stack: 760
+
+🎮 Game 524/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58310>
+💰 Trainer's stack: 790
+
+🎮 Game 525/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 1989
+
+🎮 Game 526/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 1998
+
+🎮 Game 527/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F6800>
+💰 Trainer's stack: 0
+
+🎮 Game 528/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58130>
+💰 Trainer's stack: 1070
+
+🎮 Game 529/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 680
+
+🎮 Game 530/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 531/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 532/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58070>
+💰 Trainer's stack: 0
+
+🎮 Game 533/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5A80>
+💰 Trainer's stack: 680
+
+🎮 Game 534/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 535/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 0
+
+🎮 Game 536/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 537/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 0
+
+🎮 Game 538/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1982
+
+🎮 Game 539/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6A40>
+💰 Trainer's stack: 1160
+
+🎮 Game 540/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58910>
+💰 Trainer's stack: 0
+
+🎮 Game 541/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1430
+
+🎮 Game 542/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 543/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 950
+
+🎮 Game 544/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 545/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 990
+
+🎮 Game 546/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 547/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 548/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 549/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 1170
+
+🎮 Game 550/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 950
+
+🎮 Game 551/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 552/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1270
+
+🎮 Game 553/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1040
+
+🎮 Game 554/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 920
+
+🎮 Game 555/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 800
+
+🎮 Game 556/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 557/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A581F0>
+💰 Trainer's stack: 790
+
+🎮 Game 558/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 1190
+
+🎮 Game 559/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1080
+
+🎮 Game 560/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 2000
+
+🎮 Game 561/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 750
+
+🎮 Game 562/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 563/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 564/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 850
+
+🎮 Game 565/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 0
+
+🎮 Game 566/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1370
+
+🎮 Game 567/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1190
+
+🎮 Game 568/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1390
+
+🎮 Game 569/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A597B0>
+💰 Trainer's stack: 0
+
+🎮 Game 570/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 571/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6800>
+💰 Trainer's stack: 980
+
+🎮 Game 572/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 1994
+
+🎮 Game 573/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 574/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1340
+
+🎮 Game 575/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 1100
+
+🎮 Game 576/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 970
+
+🎮 Game 577/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 1010
+
+🎮 Game 578/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 970
+
+🎮 Game 579/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 990
+
+🎮 Game 580/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 980
+
+🎮 Game 581/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 2000
+
+🎮 Game 582/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 1996
+
+🎮 Game 583/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 584/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 940
+
+🎮 Game 585/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 770
+
+🎮 Game 586/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 980
+
+🎮 Game 587/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 770
+
+🎮 Game 588/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1110
+
+🎮 Game 589/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 590/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1982
+
+🎮 Game 591/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 592/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 1150
+
+🎮 Game 593/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 594/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 595/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1989
+
+🎮 Game 596/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1190
+
+🎮 Game 597/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 598/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 1220
+
+🎮 Game 599/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1620
+
+🎮 Game 600/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 870
+
+🎮 Game 601/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 1160
+
+🎮 Game 602/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 1210
+
+🎮 Game 603/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 840
+
+🎮 Game 604/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1999
+
+🎮 Game 605/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 606/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1985
+
+🎮 Game 607/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 970
+
+🎮 Game 608/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 609/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 610/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 940
+
+🎮 Game 611/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 0
+
+🎮 Game 612/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 790
+
+🎮 Game 613/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 614/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 615/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 880
+
+🎮 Game 616/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 0
+
+🎮 Game 617/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1320
+
+🎮 Game 618/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD55D0>
+💰 Trainer's stack: 0
+
+🎮 Game 619/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 0
+
+🎮 Game 620/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1110
+
+🎮 Game 621/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 622/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 1060
+
+🎮 Game 623/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 0
+
+🎮 Game 624/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59BD0>
+💰 Trainer's stack: 0
+
+🎮 Game 625/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1996
+
+🎮 Game 626/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1210
+
+🎮 Game 627/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 628/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59540>
+💰 Trainer's stack: 1992
+
+🎮 Game 629/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 630/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 0
+
+🎮 Game 631/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 0
+
+🎮 Game 632/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A58070>
+💰 Trainer's stack: 1030
+
+🎮 Game 633/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 634/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 840
+
+🎮 Game 635/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 0
+
+🎮 Game 636/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 637/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1310
+
+🎮 Game 638/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 639/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 640/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59540>
+💰 Trainer's stack: 0
+
+🎮 Game 641/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 642/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 643/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1280
+
+🎮 Game 644/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 645/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 646/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A58070>
+💰 Trainer's stack: 1090
+
+🎮 Game 647/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 648/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 649/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 1990
+
+🎮 Game 650/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 1240
+
+🎮 Game 651/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 930
+
+🎮 Game 652/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 880
+
+🎮 Game 653/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 654/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 860
+
+🎮 Game 655/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5D80>
+💰 Trainer's stack: 1160
+
+🎮 Game 656/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 657/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 658/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 830
+
+🎮 Game 659/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 1040
+
+🎮 Game 660/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F6A40>
+💰 Trainer's stack: 0
+
+🎮 Game 661/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 662/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 663/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 1250
+
+🎮 Game 664/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 665/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 666/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1340
+
+🎮 Game 667/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 668/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 1390
+
+🎮 Game 669/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 670/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 920
+
+🎮 Game 671/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 570
+
+🎮 Game 672/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 673/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1280
+
+🎮 Game 674/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 940
+
+🎮 Game 675/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 676/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1140
+
+🎮 Game 677/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 810
+
+🎮 Game 678/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 1987
+
+🎮 Game 679/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1030
+
+🎮 Game 680/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1120
+
+🎮 Game 681/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 1170
+
+🎮 Game 682/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 683/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A597B0>
+💰 Trainer's stack: 1090
+
+🎮 Game 684/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 2000
+
+🎮 Game 685/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 686/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 1110
+
+🎮 Game 687/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 688/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 689/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 690/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 691/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 800
+
+🎮 Game 692/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 820
+
+🎮 Game 693/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1996
+
+🎮 Game 694/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 1140
+
+🎮 Game 695/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 0
+
+🎮 Game 696/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 810
+
+🎮 Game 697/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 698/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 699/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 1060
+
+🎮 Game 700/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1997
+
+🎮 Game 701/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 702/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 0
+
+🎮 Game 703/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1010
+
+🎮 Game 704/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 990
+
+🎮 Game 705/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 706/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 1400
+
+🎮 Game 707/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 430
+
+🎮 Game 708/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 709/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 710/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 990
+
+🎮 Game 711/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 1160
+
+🎮 Game 712/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 713/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1000
+
+🎮 Game 714/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 0
+
+🎮 Game 715/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 830
+
+🎮 Game 716/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 780
+
+🎮 Game 717/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1150
+
+🎮 Game 718/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 820
+
+🎮 Game 719/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59C00>
+💰 Trainer's stack: 1982
+
+🎮 Game 720/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 1170
+
+🎮 Game 721/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 722/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 970
+
+🎮 Game 723/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1080
+
+🎮 Game 724/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 1996
+
+🎮 Game 725/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 726/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 0
+
+🎮 Game 727/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 728/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1010
+
+🎮 Game 729/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 730/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 0
+
+🎮 Game 731/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 1020
+
+🎮 Game 732/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 0
+
+🎮 Game 733/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 734/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 0
+
+🎮 Game 735/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1200
+
+🎮 Game 736/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 737/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 738/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 0
+
+🎮 Game 739/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 740/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 741/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1999
+
+🎮 Game 742/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 0
+
+🎮 Game 743/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 744/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 1150
+
+🎮 Game 745/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 746/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 870
+
+🎮 Game 747/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 0
+
+🎮 Game 748/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1240
+
+🎮 Game 749/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 1010
+
+🎮 Game 750/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1080
+
+🎮 Game 751/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1170
+
+🎮 Game 752/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A588E0>
+💰 Trainer's stack: 1986
+
+🎮 Game 753/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 950
+
+🎮 Game 754/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 820
+
+🎮 Game 755/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 756/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1110
+
+🎮 Game 757/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 758/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 920
+
+🎮 Game 759/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 760/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 880
+
+🎮 Game 761/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 860
+
+🎮 Game 762/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1090
+
+🎮 Game 763/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 764/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 765/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 1220
+
+🎮 Game 766/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 767/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1300
+
+🎮 Game 768/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 0
+
+🎮 Game 769/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 770/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 771/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 940
+
+🎮 Game 772/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 930
+
+🎮 Game 773/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1060
+
+🎮 Game 774/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A58FA0>
+💰 Trainer's stack: 960
+
+🎮 Game 775/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7E80>
+💰 Trainer's stack: 560
+
+🎮 Game 776/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 990
+
+🎮 Game 777/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1986
+
+🎮 Game 778/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 870
+
+🎮 Game 779/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 910
+
+🎮 Game 780/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 900
+
+🎮 Game 781/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 910
+
+🎮 Game 782/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 783/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1985
+
+🎮 Game 784/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1050
+
+🎮 Game 785/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1210
+
+🎮 Game 786/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 870
+
+🎮 Game 787/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1340
+
+🎮 Game 788/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 960
+
+🎮 Game 789/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 790/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 1170
+
+🎮 Game 791/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 0
+
+🎮 Game 792/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 950
+
+🎮 Game 793/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 794/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 795/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1020
+
+🎮 Game 796/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 870
+
+🎮 Game 797/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 1090
+
+🎮 Game 798/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 1240
+
+🎮 Game 799/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 940
+
+🎮 Game 800/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 801/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1100
+
+🎮 Game 802/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 803/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1120
+
+🎮 Game 804/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 805/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1190
+
+🎮 Game 806/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 807/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 808/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1996
+
+🎮 Game 809/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 840
+
+🎮 Game 810/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7FD0>
+💰 Trainer's stack: 1983
+
+🎮 Game 811/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 530
+
+🎮 Game 812/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A59AE0>
+💰 Trainer's stack: 820
+
+🎮 Game 813/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 814/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 0
+
+🎮 Game 815/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 816/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F62F0>
+💰 Trainer's stack: 1170
+
+🎮 Game 817/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 818/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 819/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 820/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 821/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 822/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3DC0>
+💰 Trainer's stack: 940
+
+🎮 Game 823/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 940
+
+🎮 Game 824/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 825/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1120
+
+🎮 Game 826/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 827/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 780
+
+🎮 Game 828/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59C00>
+💰 Trainer's stack: 1000
+
+🎮 Game 829/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 830/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 831/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 832/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 0
+
+🎮 Game 833/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 550
+
+🎮 Game 834/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1090
+
+🎮 Game 835/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1340
+
+🎮 Game 836/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 837/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 838/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 839/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 830
+
+🎮 Game 840/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 841/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59BA0>
+💰 Trainer's stack: 1370
+
+🎮 Game 842/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1985
+
+🎮 Game 843/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1330
+
+🎮 Game 844/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 845/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 1995
+
+🎮 Game 846/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 1090
+
+🎮 Game 847/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 0
+
+🎮 Game 848/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A597E0>
+💰 Trainer's stack: 0
+
+🎮 Game 849/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1090
+
+🎮 Game 850/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 710
+
+🎮 Game 851/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 1010
+
+🎮 Game 852/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A59B70>
+💰 Trainer's stack: 940
+
+🎮 Game 853/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 1530
+
+🎮 Game 854/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 1560
+
+🎮 Game 855/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 910
+
+🎮 Game 856/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 857/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 0
+
+🎮 Game 858/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 859/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5D20>
+💰 Trainer's stack: 0
+
+🎮 Game 860/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 0
+
+🎮 Game 861/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F7F10>
+💰 Trainer's stack: 0
+
+🎮 Game 862/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1983
+
+🎮 Game 863/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 864/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 890
+
+🎮 Game 865/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 960
+
+🎮 Game 866/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1020
+
+🎮 Game 867/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 868/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1140
+
+🎮 Game 869/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1420
+
+🎮 Game 870/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 1994
+
+🎮 Game 871/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 0
+
+🎮 Game 872/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 0
+
+🎮 Game 873/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 740
+
+🎮 Game 874/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 875/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD53F0>
+💰 Trainer's stack: 0
+
+🎮 Game 876/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A59BA0>
+💰 Trainer's stack: 1210
+
+🎮 Game 877/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 0
+
+🎮 Game 878/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1080
+
+🎮 Game 879/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 0
+
+🎮 Game 880/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1987
+
+🎮 Game 881/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F64D0>
+💰 Trainer's stack: 1280
+
+🎮 Game 882/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 883/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 884/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1230
+
+🎮 Game 885/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F64A0>
+💰 Trainer's stack: 0
+
+🎮 Game 886/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1060
+
+🎮 Game 887/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 0
+
+🎮 Game 888/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 889/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 1220
+
+🎮 Game 890/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 970
+
+🎮 Game 891/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 892/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A59540>
+💰 Trainer's stack: 0
+
+🎮 Game 893/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7F10>
+💰 Trainer's stack: 0
+
+🎮 Game 894/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 930
+
+🎮 Game 895/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1220
+
+🎮 Game 896/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1130
+
+🎮 Game 897/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 0
+
+🎮 Game 898/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 899/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD68F0>
+💰 Trainer's stack: 1988
+
+🎮 Game 900/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 0
+
+🎮 Game 901/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F62F0>
+💰 Trainer's stack: 900
+
+🎮 Game 902/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 920
+
+🎮 Game 903/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5D80>
+💰 Trainer's stack: 0
+
+🎮 Game 904/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58130>
+💰 Trainer's stack: 1990
+
+🎮 Game 905/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1070
+
+🎮 Game 906/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 0
+
+🎮 Game 907/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 908/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 909/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F65C0>
+💰 Trainer's stack: 1100
+
+🎮 Game 910/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535A830>
+💰 Trainer's stack: 0
+
+🎮 Game 911/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 990
+
+🎮 Game 912/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 913/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F74F0>
+💰 Trainer's stack: 1170
+
+🎮 Game 914/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 1300
+
+🎮 Game 915/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5900>
+💰 Trainer's stack: 0
+
+🎮 Game 916/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 1180
+
+🎮 Game 917/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC65F6800>
+💰 Trainer's stack: 980
+
+🎮 Game 918/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 930
+
+🎮 Game 919/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1040
+
+🎮 Game 920/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 0
+
+🎮 Game 921/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F6800>
+💰 Trainer's stack: 0
+
+🎮 Game 922/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1380
+
+🎮 Game 923/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD53C0>
+💰 Trainer's stack: 1999
+
+🎮 Game 924/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 925/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 980
+
+🎮 Game 926/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1160
+
+🎮 Game 927/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 0
+
+🎮 Game 928/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A59570>
+💰 Trainer's stack: 0
+
+🎮 Game 929/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 1110
+
+🎮 Game 930/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 850
+
+🎮 Game 931/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 932/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A59540>
+💰 Trainer's stack: 880
+
+🎮 Game 933/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 1080
+
+🎮 Game 934/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB49D3E50>
+💰 Trainer's stack: 0
+
+🎮 Game 935/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B10>
+💰 Trainer's stack: 500
+
+🎮 Game 936/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DB4A589A0>
+💰 Trainer's stack: 1120
+
+🎮 Game 937/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 938/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 960
+
+🎮 Game 939/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 1260
+
+🎮 Game 940/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 1010
+
+🎮 Game 941/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC65F7DF0>
+💰 Trainer's stack: 900
+
+🎮 Game 942/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 1370
+
+🎮 Game 943/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 0
+
+🎮 Game 944/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A589A0>
+💰 Trainer's stack: 0
+
+🎮 Game 945/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 710
+
+🎮 Game 946/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC535B2E0>
+💰 Trainer's stack: 0
+
+🎮 Game 947/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 900
+
+🎮 Game 948/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A581F0>
+💰 Trainer's stack: 0
+
+🎮 Game 949/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 870
+
+🎮 Game 950/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 0
+
+🎮 Game 951/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 952/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A589A0>
+💰 Trainer's stack: 1997
+
+🎮 Game 953/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 0
+
+🎮 Game 954/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 0
+
+🎮 Game 955/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 950
+
+🎮 Game 956/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC535ADA0>
+💰 Trainer's stack: 1984
+
+🎮 Game 957/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F7FA0>
+💰 Trainer's stack: 0
+
+🎮 Game 958/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC52EE1D0>
+💰 Trainer's stack: 670
+
+🎮 Game 959/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD5B40>
+💰 Trainer's stack: 0
+
+🎮 Game 960/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 961/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 1010
+
+🎮 Game 962/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 470
+
+🎮 Game 963/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 0
+
+🎮 Game 964/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A589A0>
+💰 Trainer's stack: 0
+
+🎮 Game 965/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1996
+
+🎮 Game 966/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 2000
+
+🎮 Game 967/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+🎮 Game 968/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 969/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC65F6A40>
+💰 Trainer's stack: 0
+
+🎮 Game 970/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 0
+
+🎮 Game 971/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1130
+
+🎮 Game 972/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 0
+
+🎮 Game 973/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD4730>
+💰 Trainer's stack: 900
+
+🎮 Game 974/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EE2F0>
+💰 Trainer's stack: 1260
+
+🎮 Game 975/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A58340>
+💰 Trainer's stack: 0
+
+🎮 Game 976/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 1060
+
+🎮 Game 977/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB4A23F40>
+💰 Trainer's stack: 570
+
+🎮 Game 978/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 979/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A581F0>
+💰 Trainer's stack: 0
+
+🎮 Game 980/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC65F6500>
+💰 Trainer's stack: 1998
+
+🎮 Game 981/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 950
+
+🎮 Game 982/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC52EDB40>
+💰 Trainer's stack: 980
+
+🎮 Game 983/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC62366E0>
+💰 Trainer's stack: 0
+
+🎮 Game 984/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5ED0>
+💰 Trainer's stack: 0
+
+🎮 Game 985/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281960>
+💰 Trainer's stack: 0
+
+🎮 Game 986/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC535A740>
+💰 Trainer's stack: 1010
+
+🎮 Game 987/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC61F3D90>
+💰 Trainer's stack: 1190
+
+🎮 Game 988/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC5CD5D20>
+💰 Trainer's stack: 0
+
+🎮 Game 989/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6236590>
+💰 Trainer's stack: 1020
+
+🎮 Game 990/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DB49D3D90>
+💰 Trainer's stack: 1090
+
+🎮 Game 991/1000
+Opponent: <examples.players.mlplayer.MLPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 1090
+
+🎮 Game 992/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5CD5A80>
+💰 Trainer's stack: 1000
+
+🎮 Game 993/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC61F3F70>
+💰 Trainer's stack: 0
+
+🎮 Game 994/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC5359300>
+💰 Trainer's stack: 1280
+
+🎮 Game 995/1000
+Opponent: <examples.players.honest_player.HonestPlayer object at 0x0000022DC6280550>
+💰 Trainer's stack: 940
+
+🎮 Game 996/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DB49D3D60>
+💰 Trainer's stack: 0
+
+🎮 Game 997/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DB4A582E0>
+💰 Trainer's stack: 0
+
+🎮 Game 998/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC52EE230>
+💰 Trainer's stack: 0
+
+🎮 Game 999/1000
+Opponent: <examples.players.random_player.RandomPlayer object at 0x0000022DC5C92170>
+💰 Trainer's stack: 1982
+
+🎮 Game 1000/1000
+Opponent: <examples.players.fish_player.FishPlayer object at 0x0000022DC6281C90>
+💰 Trainer's stack: 0
+
+✅ Training Complete.
+
+Process finished with exit code 0
