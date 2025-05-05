@@ -5,6 +5,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from collections import deque
+import matplotlib.pyplot as plt
 from pypokerengine.players import BasePokerPlayer
 
 
@@ -12,37 +13,50 @@ ACTIONS = ["fold", "call", "raise"]
 ACTION_IDX = {a: i for i, a in enumerate(ACTIONS)}
 
 
-class QNetwork(nn.Module):
+class DuelingQNetwork(nn.Module):
     def __init__(self, input_dim, output_dim):
-        super(QNetwork, self).__init__()
-        self.fc = nn.Sequential(
+        super(DuelingQNetwork, self).__init__()
+        self.feature = nn.Sequential(
             nn.Linear(input_dim, 128),
+            nn.ReLU()
+        )
+        self.value_stream = nn.Sequential(
+            nn.Linear(128, 128),
             nn.ReLU(),
+            nn.Linear(128, 1)
+        )
+        self.advantage_stream = nn.Sequential(
             nn.Linear(128, 128),
             nn.ReLU(),
             nn.Linear(128, output_dim)
         )
 
     def forward(self, x):
-        return self.fc(x)
+        features = self.feature(x)
+        values = self.value_stream(features)
+        advantages = self.advantage_stream(features)
+        qvals = values + (advantages - advantages.mean(dim=1, keepdim=True))
+        return qvals
 
 
 class MLPlayerDDQN(BasePokerPlayer):
-    def __init__(self, state_dim=5, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
-                 epsilon=1.0, epsilon_min=0.1, epsilon_decay=0.995, tau=0.01):
+    def __init__(self,model_path, state_dim=5, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
+                 epsilon=1.0, epsilon_min=0.15, epsilon_decay=0.999, tau=0.01, alpha=0.6, beta=0.4):
         self.state_dim = state_dim
         self.action_dim = len(ACTIONS)
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-        self.policy_net = QNetwork(state_dim, self.action_dim).to(self.device)
-        self.target_net = QNetwork(state_dim, self.action_dim).to(self.device)
+        self.policy_net = DuelingQNetwork(state_dim, self.action_dim).to(self.device)
+        self.target_net = DuelingQNetwork(state_dim, self.action_dim).to(self.device)
         self.optimizer = optim.Adam(self.policy_net.parameters(), lr=lr)
         self.loss_fn = nn.MSELoss()
 
         self.update_target_net()
 
-        self.buffer = deque(maxlen=buffer_size)
+        self.buffer = []
+        self.priorities = []
+        self.buffer_size = buffer_size
         self.batch_size = batch_size
         self.gamma = gamma
 
@@ -51,11 +65,17 @@ class MLPlayerDDQN(BasePokerPlayer):
         self.epsilon_decay = epsilon_decay
         self.tau = tau
 
+        self.alpha = alpha  # prioritization exponent
+        self.beta = beta    # importance sampling
+
         self.prev_state = None
         self.prev_action = None
         self.prev_stack = None
 
-        self.model_path = "ddqn_model.pt"
+        self.model_path = model_path
+        self.rewards_log = []
+        self.win_log = []
+
         self.load_model()
 
     def declare_action(self, valid_actions, hole_card, round_state):
@@ -85,10 +105,21 @@ class MLPlayerDDQN(BasePokerPlayer):
             return
 
         reward = self.get_stack(round_state) - (self.prev_stack or 0)
+        self.rewards_log.append(reward)
         next_state = self.encode_state(self.hole_card, round_state)
         done = True
 
+        td_error = abs(reward)
+        if len(self.buffer) >= self.buffer_size:
+            self.buffer.pop(0)
+            self.priorities.pop(0)
+
         self.buffer.append((self.prev_state, self.prev_action, reward, next_state, done))
+        self.priorities.append(td_error + 1e-5)
+
+        # Win tracking
+        win = any(w['uuid'] == self.uuid for w in winners)
+        self.win_log.append(1 if win else 0)
 
         if len(self.buffer) >= self.batch_size:
             self.train_model()
@@ -98,7 +129,13 @@ class MLPlayerDDQN(BasePokerPlayer):
         self.save_model()
 
     def train_model(self):
-        batch = random.sample(self.buffer, self.batch_size)
+        priorities = np.array(self.priorities) ** self.alpha
+        probs = priorities / priorities.sum()
+        indices = np.random.choice(len(self.buffer), self.batch_size, p=probs)
+        weights = (len(self.buffer) * probs[indices]) ** (-self.beta)
+        weights = torch.FloatTensor(weights / weights.max()).unsqueeze(1).to(self.device)
+
+        batch = [self.buffer[i] for i in indices]
         states, actions, rewards, next_states, dones = zip(*batch)
 
         states = torch.FloatTensor(states).to(self.device)
@@ -112,7 +149,7 @@ class MLPlayerDDQN(BasePokerPlayer):
         next_q_vals = self.target_net(next_states).gather(1, next_actions)
         targets = rewards + self.gamma * next_q_vals * (~dones)
 
-        loss = self.loss_fn(q_vals, targets.detach())
+        loss = (self.loss_fn(q_vals, targets.detach()) * weights).mean()
         self.optimizer.zero_grad()
         loss.backward()
         self.optimizer.step()
@@ -136,7 +173,7 @@ class MLPlayerDDQN(BasePokerPlayer):
         ranks = '23456789TJQKA'
         rank_map = {r: i for i, r in enumerate(ranks)}
         try:
-            values = [rank_map[c[1]] for c in hole_card]  # fixed: suit+rank format
+            values = [rank_map[c[1]] for c in hole_card]  # suit+rank format
         except Exception:
             return 0.0
         return sum(values) / (len(values) * 12.0)
@@ -164,7 +201,26 @@ class MLPlayerDDQN(BasePokerPlayer):
             self.policy_net.load_state_dict(data['model'])
             self.epsilon = data.get('epsilon', self.epsilon)
 
-    # Required stubs
+    def plot_training_rewards(self):
+        if len(self.rewards_log) >= 10:
+            smoothed = np.convolve(self.rewards_log, np.ones(10)/10, mode='valid')
+            plt.plot(smoothed)
+            plt.title("Smoothed Round Reward (10-game MA)")
+            plt.xlabel("Rounds")
+            plt.ylabel("Reward")
+            plt.grid()
+            plt.show()
+
+    def plot_win_rate(self):
+        if len(self.win_log) >= 10:
+            avg = np.convolve(self.win_log, np.ones(10)/10, mode='valid')
+            plt.plot(avg, color='green')
+            plt.title("Win Rate Over Time (10-round MA)")
+            plt.xlabel("Rounds")
+            plt.ylabel("Win Rate")
+            plt.grid()
+            plt.show()
+
     def receive_game_start_message(self, game_info): pass
     def receive_round_start_message(self, round_count, hole_card, seats):
         self.hole_card = hole_card
