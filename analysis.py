@@ -213,3 +213,36 @@ if __name__ == "__main__":
         print("✅ Первый игрок статистически значимо лучше (односторонний тест, p < 0.05)")
     else:
         print("❌ Нет статистически значимого превосходства (p ≥ 0.05)")
+
+    diffs = np.array(balances_p1) - np.array(balances_p2)
+    observed_mean = np.mean(diffs)
+
+    # Bootstrap
+    n_iterations = 10000
+    n = len(diffs)
+    bootstrap_means = []
+
+    for _ in range(n_iterations):
+        sample = np.random.choice(diffs, size=n, replace=True)
+        bootstrap_means.append(np.mean(sample))
+
+    bootstrap_means = np.array(bootstrap_means)
+
+    # One-sided p-value: proportion of samples ≤ 0
+    p_value_bootstrap = np.mean(bootstrap_means <= 0)
+
+    # Plot
+    plt.figure(figsize=(10, 6))
+    plt.hist(bootstrap_means, bins=30, color='lightblue', edgecolor='black')
+    plt.axvline(observed_mean, color='blue', linestyle='--', label=f'Observed Mean = {observed_mean:.2f}')
+    plt.axvline(0, color='red', linestyle='-', label='Null Hypothesis (Mean = 0)')
+    plt.title('Bootstrap Distribution of Mean Differences')
+    plt.xlabel('Mean Difference')
+    plt.ylabel('Frequency')
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+    # Output
+    print(f"Observed mean difference: {observed_mean:.2f}")
+    print(f"Bootstrap one-sided p-value (Deepseek > Honest): {p_value_bootstrap:.4f}")
