@@ -33,7 +33,6 @@ class DeepSeekChat:
 
         with open(f'{self.current_session}.txt', 'a')  as file:
             file.write(prompt +'\n')
-
         session = self.sessions[session_id]
         messages = [{
             "role": "system",
@@ -41,6 +40,13 @@ class DeepSeekChat:
         }]
         messages += session["messages"]
         messages.append({"role": "user", "content": prompt})
+
+        def messages_length(msgs):
+            return sum(len(m["content"]) for m in msgs)
+
+        while messages_length(messages) > 60000 and len(messages) > 2:
+            # Remove the second message (first user/assistant message, preserve system + prompt)
+            del messages[1]
 
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -85,11 +91,13 @@ api_key = os.getenv('API_KEY')
 
 class DeepseekPlayer(BasePokerPlayer):
 
-  def __init__(self):
+  def __init__(self, deepseek_log_file, other_log_file):
+    self.deepseek_file = deepseek_log_file
+    self.other_file = other_log_file
     self.chat = DeepSeekChat(api_key, SYSTEM_PROMT)
     self.my_uuid = None
-    self.our_stack = ['100']
-    self.opp_stack = ['100']
+    self.our_stack = []
+    self.opp_stack = []
     main_session = self.chat.create_session()
     print(f"Создан новый сеанс: {main_session}")
 
@@ -109,7 +117,7 @@ Opponent stack: {seats[2]}, opponent state: {seats[3]}
 Return your action
 """
     response = self.chat.get_response(promt)
-    print(f'Deepseek response {response}')
+    # print(f'Deepseek response {response}')
     action, amount = self.__receive_action_from_deepseek(valid_actions, response, promt)
     return action, amount
 
@@ -126,7 +134,20 @@ return '+' if you understand
     for i in game_info['seats']:
         if i['name'] == 'deepseek_player':
             self.my_uuid = i['uuid']
-    print(f'Deepseek response to game start {response}')
+
+    if self.our_stack:
+        with open(self.deepseek_file, 'a') as f:
+            for i in self.our_stack:
+                f.write(i + ' ')
+            f.write('\n')
+        with open(self.other_file, 'a') as f:
+            for i in self.opp_stack:
+                f.write(i + ' ')
+            f.write('\n')
+        print('Files updated')
+    self.opp_stack = ['100']
+    self.our_stack = ['100']
+    # print(f'Deepseek response to game start {response}')
 
   def get_seats(self, seats):
       for i in seats:
@@ -147,7 +168,7 @@ Opponent stack: {seats[2]}, opponent state: {seats[3]}
 return '+' if you understand
 """
       response = self.chat.get_response(promt)
-      print(f'Deepseek response to round start {response}')
+      # print(f'Deepseek response to round start {response}')
 
   def receive_street_start_message(self, street, round_state):
       promt = \
@@ -158,7 +179,7 @@ community cards: {round_state['community_card']}
 return '+' if you understand
 """
       response = self.chat.get_response(promt)
-      print(f'Deepseek response to street start {response}')
+      # print(f'Deepseek response to street start {response}')
 
   def receive_game_update_message(self, new_action, round_state):
     if new_action['player_uuid'] != self.my_uuid:
@@ -167,7 +188,7 @@ f"""Your opponent declared action: {new_action['action']} with amount {new_actio
 return '+' if you understand
 """
         response = self.chat.get_response(promt)
-        print(f'Deepseek response to round update {response}')
+        # print(f'Deepseek response to round update {response}')
 
   def receive_round_result_message(self, winners, hand_info, round_state):
       seats = self.get_seats(round_state['seats'])
@@ -175,16 +196,18 @@ return '+' if you understand
       self.opp_stack.append(str(seats[2]))
 
       #TODO: parametrise round count and first sum
-      if round_state['round_count'] == 10:
-          with open('deepseek.txt', 'a') as f:
-              for i in self.our_stack:
-                f.write(i + '\n')
-          with open('fair.txt', 'a') as k:
-              for j in self.opp_stack:
-                k.write(j + '\n')
-          self.opp_stack = ['100']
-          self.our_stack = ['100']
-          print('Files updated')
+      # if round_state['round_count'] == 10 or int(seats[0]) == 0  or int(seats[0]) == 200:
+      #     with open(self.deepseek_file, 'a') as f:
+      #         for i in self.our_stack:
+      #           f.write(i + ' ')
+      #         f.write('\n')
+      #     with open(self.other_file, 'a') as f:
+      #         for i in self.opp_stack:
+      #             f.write(i + ' ')
+      #         f.write('\n')
+      #     self.opp_stack = ['100']
+      #     self.our_stack = ['100']
+      #     print('Files updated')
 
       if winners[0]['uuid'] == self.my_uuid:
           winner = 'You'
@@ -196,7 +219,7 @@ Hand info: {hand_info}
 return '+' if you understand
 """
       response = self.chat.get_response(promt)
-      print(f'Deepseek response to round results {response}')
+      # print(f'Deepseek response to round results {response}')
 
   def __wait_until_input(self):
     input("Enter some key to continue ...")
@@ -211,7 +234,6 @@ return '+' if you understand
       elif response == 'c':
         return valid_actions[1]['action'], valid_actions[1]['amount']
       elif response[0] == 'r':
-        print('bebra)')
         valid_amounts = valid_actions[2]['amount']
         try:
             deepseek_amt = int(response.split()[1])
@@ -237,8 +259,8 @@ return '+' if you understand
         return deepseek_amount
       else:
         print("Invalid raise amount %d. Try again.")
-        return self.__receive_raise_amount_from_deepseek(min_amount, max_amount, deepseek_amount)
+        return (min_amount+max_amount)//2
     except:
       print("Invalid input received. Try again.")
-      return self.__receive_raise_amount_from_deepseek(min_amount, max_amount, deepseek_amount)
+      return (min_amount+max_amount)//2
 

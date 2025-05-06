@@ -7,6 +7,7 @@ import torch.optim as optim
 from collections import deque
 import matplotlib.pyplot as plt
 from pypokerengine.players import BasePokerPlayer
+from treys import Evaluator, Card
 
 
 ACTIONS = ["fold", "call", "raise"]
@@ -162,21 +163,30 @@ class MLPlayerDDQN(BasePokerPlayer):
             target_param.data.copy_(self.tau * param.data + (1.0 - self.tau) * target_param.data)
 
     def encode_state(self, hole_card, round_state):
-        strength = self.evaluate_hand_strength(hole_card)
+        community_cards = round_state['community_card']
+        strength = self.evaluate_hand_strength(hole_card, community_cards)
         pot = round_state['pot']['main']['amount'] / 1000.0
         num_community = len(round_state['community_card']) / 5.0
         pos = self.get_position(round_state)
         stack = self.get_stack(round_state) / 1000.0
         return [strength, pot, num_community, pos, stack]
 
-    def evaluate_hand_strength(self, hole_card):
-        ranks = '23456789TJQKA'
-        rank_map = {r: i for i, r in enumerate(ranks)}
-        try:
-            values = [rank_map[c[1]] for c in hole_card]  # suit+rank format
-        except Exception:
-            return 0.0
-        return sum(values) / (len(values) * 12.0)
+    def evaluate_hand_strength(self, hole_card, community_cards):
+        evaluator = Evaluator()
+        hand = []
+        board = []
+        for card in hole_card:
+            new_format = card[1] + card[0].lower()
+            hand.append(Card.new(new_format))
+        for card in community_cards:
+            new_format = card[1] + card[0].lower()
+            board.append(Card.new(new_format))
+        if len(board) < 3:
+            return 0.5
+        else:
+            score = evaluator.evaluate(hand, board)
+            percentile = evaluator.get_five_card_rank_percentage(score)
+            return 1 - percentile
 
     def get_stack(self, round_state):
         for seat in round_state['seats']:

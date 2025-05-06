@@ -6,7 +6,7 @@ from matplotlib.cm import get_cmap
 def read_data(filename, num_rounds):
     """Читает данные из файла и разбивает их на игры по указанному количеству раундов."""
     with open(filename, 'r') as f:
-        data = [float(line.strip()) for line in f]
+        data = [int(line.strip()) for line in f]
 
     # Автоматически определяем количество игр
     num_games = len(data) // num_rounds
@@ -136,51 +136,80 @@ PLAYER_FILES = [  # Пути к файлам с данными игроков
 
 if __name__ == "__main__":
     for player_file in PLAYER_FILES:
-        try:
-            games = read_data(player_file, NUM_ROUNDS)
-            new_game = [float(100)]
-            with open('logs.txt', 'r') as f:
+        games = []
+    #     try:
+    #         games = read_data(player_file, NUM_ROUNDS)
+    #         new_game = []
+    #         with open('logs.txt', 'r') as f:
+    #             for line in f:
+    #                 if 'won the round' in line:
+    #                     line = line.split()
+    #                     round = int(line[4])
+    #                     deepseek = int(line[-1][:-2])
+    #                     fair = int(line[-3][:-1])
+    #                     if player_file == 'deepseek.txt':
+    #                         # if round == 10 or fair == 0 or deepseek == 0:
+    #                         #     new_game.append(deepseek)
+    #                         #     games.append(new_game)
+    #                         #     new_game = [int(100)]
+    #                         # else:
+    #                         new_game.append(deepseek)
+    #                     else:
+    #                         # if round == 10 or fair == 0 or deepseek == 0:
+    #                         #     new_game.append(fair)
+    #                         #     games.append(new_game)
+    #                         #     new_game = [int(100)]
+    #                         # else:
+    #                         new_game.append(fair)
+    #                 elif 'Start ' in line:
+    #                     if new_game:
+    #                         if new_game == [100]:
+    #                             print(line)
+    #                         games.append(new_game)
+    #                     new_game = [100]
+        if player_file == 'deepseek.txt':
+            with open('deepseek_old.txt', 'r') as f:
                 for line in f:
-                    if 'won the round' in line:
-                        line = line.split()
-                        round = int(line[4])
-                        deepseek = float(line[-1][:-2])
-                        fair = float(line[-3][:-1])
-                        if player_file == 'deepseek.txt':
-                            if round == 10 or fair == 0 or deepseek == 0:
-                                new_game.append(deepseek)
-                                games.append(new_game)
-                                new_game = [float(100)]
-                            else:
-                                new_game.append(deepseek)
-                        else:
-                            if round == 10 or fair == 0 or deepseek == 0:
-                                new_game.append(fair)
-                                games.append(new_game)
-                                new_game = [float(100)]
-                            else:
-                                new_game.append(fair)
-            if player_file == 'deepseek.txt':
-                n = 'deepseek'
-            else:
-                n = 'fair'
-            win_g = []
-            early_win = 0
-            print(f'# of games: {len(games)}')
-            for game in games:
-                win_g.append(game[-1])
-                if game[-1] == float(200):
-                    early_win += 1
-                if game[0] != float(100):
-                    print(game)
-            print(f'Avg {n} last round: {sum(win_g) / len(win_g)}')
-            print(f'# of early wins of {n} is {early_win}')
-            # print(games)
-            output = plot_player(games, player_file, NUM_ROUNDS)
-            output_evolution = plot_round_evolution(games, player_file)
-            print(f"График сохранен как: {output}")
+                        line = line.rstrip()
+                        line = list(map(int, line.split()))
+                        # print(line[-1])
+                        games.append(line)
+            n = 'deepseek'
+            # with open('deepseek_old.txt', 'a') as fi:
+            #     for game in games:
+            #         for g in game:
+            #             fi.write(str(g) + ' ')
+            #         fi.write('\n')
+        else:
+            n = 'fair'
+            with open('fair_old.txt', 'r') as f:
+                for line in f:
+                        line = line.rstrip()
+                        line = list(map(int, line.split()))
+                        # print(line[-1])
+                        games.append(line)
+            # with open('fair_old.txt', 'a') as fi:
+            #     for game in games:
+            #         for g in game:
+            #             fi.write(str(g) + ' ')
+            #         fi.write('\n')
+        win_g = []
+        early_win = 0
+        print(f'# of games: {len(games)}')
+        for game in games:
+            win_g.append(game[-1])
+            if game[-1] == 200:
+                early_win += 1
+            if game[0] != 100:
+                print(game)
+        print(f'Avg {n} last round: {sum(win_g) / len(win_g)}')
+        print(f'# of early wins of {n} is {early_win}')
+        # print(games)
+        output = plot_player(games, player_file, NUM_ROUNDS)
+        output_evolution = plot_round_evolution(games, player_file)
+        print(f"График сохранен как: {output}")
 
-        except FileNotFoundError:
-            print(f"Файл {player_file} не найден!")
-        except ValueError as e:
-            print(f"Ошибка обработки файла {player_file}: {str(e)}")
+    # except FileNotFoundError:
+    #     print(f"Файл {player_file} не найден!")
+    # except ValueError as e:
+    #     print(f"Ошибка обработки файла {player_file}: {str(e)}")
