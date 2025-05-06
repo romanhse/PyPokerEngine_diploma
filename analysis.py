@@ -1,20 +1,17 @@
-import matplotlib.pyplot as plt
-import numpy as np
 import os
 from matplotlib.cm import get_cmap
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import ttest_rel, t
 
-def read_data(filename, num_rounds):
-    """Читает данные из файла и разбивает их на игры по указанному количеству раундов."""
+def read_data(filename):
+    games = []
     with open(filename, 'r') as f:
-        data = [int(line.strip()) for line in f]
-
-    # Автоматически определяем количество игр
-    num_games = len(data) // num_rounds
-    if len(data) % num_rounds != 0:
-        raise ValueError(f"Ошибка: в файле {filename} {len(data)} строк. Это не кратно {num_rounds} раундам на игру")
-
-    # Разделяем данные на игры
-    games = [data[i * num_rounds: (i + 1) * num_rounds] for i in range(num_games)]
+        for line in f:
+            line = line.rstrip()
+            line = list(map(int, line.split()))
+            games.append(line)
     return games
 
 
@@ -136,63 +133,13 @@ PLAYER_FILES = [  # Пути к файлам с данными игроков
 
 if __name__ == "__main__":
     for player_file in PLAYER_FILES:
-        games = []
-    #     try:
-    #         games = read_data(player_file, NUM_ROUNDS)
-    #         new_game = []
-    #         with open('logs.txt', 'r') as f:
-    #             for line in f:
-    #                 if 'won the round' in line:
-    #                     line = line.split()
-    #                     round = int(line[4])
-    #                     deepseek = int(line[-1][:-2])
-    #                     fair = int(line[-3][:-1])
-    #                     if player_file == 'deepseek.txt':
-    #                         # if round == 10 or fair == 0 or deepseek == 0:
-    #                         #     new_game.append(deepseek)
-    #                         #     games.append(new_game)
-    #                         #     new_game = [int(100)]
-    #                         # else:
-    #                         new_game.append(deepseek)
-    #                     else:
-    #                         # if round == 10 or fair == 0 or deepseek == 0:
-    #                         #     new_game.append(fair)
-    #                         #     games.append(new_game)
-    #                         #     new_game = [int(100)]
-    #                         # else:
-    #                         new_game.append(fair)
-    #                 elif 'Start ' in line:
-    #                     if new_game:
-    #                         if new_game == [100]:
-    #                             print(line)
-    #                         games.append(new_game)
-    #                     new_game = [100]
+        games = read_data(player_file)
         if player_file == 'deepseek.txt':
-            with open('deepseek_old.txt', 'r') as f:
-                for line in f:
-                        line = line.rstrip()
-                        line = list(map(int, line.split()))
-                        # print(line[-1])
-                        games.append(line)
             n = 'deepseek'
-            # with open('deepseek_old.txt', 'a') as fi:
-            #     for game in games:
-            #         for g in game:
-            #             fi.write(str(g) + ' ')
-            #         fi.write('\n')
+            balances_p1 = [game[-1] for game in games]
         else:
             n = 'fair'
-            with open('fair_old.txt', 'r') as f:
-                for line in f:
-                        line = line.rstrip()
-                        line = list(map(int, line.split()))
-                        # print(line[-1])
-                        games.append(line)
-            # with open('fair_old.txt', 'a') as fi:
-            #     for game in games:
-            #         for g in game:
-            #             fi.write(str(g) + ' ')
-            #         fi.write('\n')
+            balances_p2 = [game[-1] for game in games]
         win_g = []
         early_win = 0
         print(f'# of games: {len(games)}')
@@ -204,12 +151,65 @@ if __name__ == "__main__":
                 print(game)
         print(f'Avg {n} last round: {sum(win_g) / len(win_g)}')
         print(f'# of early wins of {n} is {early_win}')
-        # print(games)
         output = plot_player(games, player_file, NUM_ROUNDS)
         output_evolution = plot_round_evolution(games, player_file)
         print(f"График сохранен как: {output}")
 
-    # except FileNotFoundError:
-    #     print(f"Файл {player_file} не найден!")
-    # except ValueError as e:
-    #     print(f"Ошибка обработки файла {player_file}: {str(e)}")
+    diffs = np.array(balances_p1) - np.array(balances_p2)
+    mean_diff = np.mean(diffs)
+    std_diff = np.std(diffs, ddof=1)
+    n = len(diffs)
+    se = std_diff / np.sqrt(n)
+    df = n - 1
+
+    # Двусторонний 95% ДИ
+    t_crit_95 = t.ppf(0.975, df)
+    ci95_lower = mean_diff - t_crit_95 * se
+    ci95_upper = mean_diff + t_crit_95 * se
+
+    # Односторонний 90% ДИ (только нижняя граница)
+    t_crit_95 = t.ppf(0.95, df)
+    ci95 = mean_diff - t_crit_95 * se
+
+    # Парный t-тест
+    t_stat, p_value_two_sided = ttest_rel(balances_p1, balances_p2)
+    p_value_one_sided = p_value_two_sided / 2
+
+    # ==== График ====
+    plt.figure(figsize=(10, 6))
+    sns.histplot(diffs, kde=True, bins=20, color='skyblue')
+
+    # Средняя разность
+    plt.axvline(mean_diff, color='blue', linestyle='--', label=f'Средняя разность = {mean_diff:.2f}')
+
+    # Нулевая гипотеза
+    plt.axvline(0, color='red', linestyle='-', label='Нулевая гипотеза (0)')
+
+    # Двусторонний ДИ
+    plt.axvspan(ci95_lower, ci95_upper, color='blue', alpha=0.2,
+                label=f'95% ДИ: [{ci95_lower:.2f}, {ci95_upper:.2f}]')
+
+    # Односторонний ДИ (только нижняя граница)
+    plt.axvline(ci95, color='green', linestyle=':', label=f'95% нижн. ДИ: {ci95:.2f}')
+
+    plt.title('Распределение разностей: Deepseek - Honest')
+    plt.xlabel('Разность балансов')
+    plt.ylabel('Частота')
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("deepseek_vs_fair.png", dpi=300)
+    plt.show()
+
+
+    print(f"Средняя разность: {mean_diff:.2f}")
+    print(f"95% ДИ (двусторонний): [{ci95_lower:.2f}, {ci95_upper:.2f}]")
+    print(f"95% ДИ (односторонний): от {ci95:.2f} до ∞")
+    print(f"t-статистика: {t_stat:.4f}")
+    print(f"p-значение (двустороннее): {p_value_two_sided:.4f}")
+    print(f"p-значение (одностороннее, проверка: игрок 1 > игрок 2): {p_value_one_sided:.4f}")
+
+
+    if t_stat > 0 and p_value_one_sided < 0.05:
+        print("✅ Первый игрок статистически значимо лучше (односторонний тест, p < 0.05)")
+    else:
+        print("❌ Нет статистически значимого превосходства (p ≥ 0.05)")
