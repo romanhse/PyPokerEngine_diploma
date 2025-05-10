@@ -41,7 +41,7 @@ class DuelingQNetwork(nn.Module):
 
 
 class MLPlayerDDQN(BasePokerPlayer):
-    def __init__(self,model_path, state_dim=5, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
+    def __init__(self, model_path, state_dim=5, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
                  epsilon=1.0, epsilon_min=0.15, epsilon_decay=0.999, tau=0.01, alpha=0.6, beta=0.4):
         self.state_dim = state_dim
         self.action_dim = len(ACTIONS)
@@ -83,6 +83,7 @@ class MLPlayerDDQN(BasePokerPlayer):
         state = self.encode_state(hole_card, round_state)
         self.prev_state = state
         self.prev_stack = self.get_stack(round_state)
+        log_bluff = False
 
         if random.random() < self.epsilon:
             action_idx = random.choice(range(len(valid_actions)))
@@ -91,6 +92,7 @@ class MLPlayerDDQN(BasePokerPlayer):
                 state_tensor = torch.FloatTensor(state).unsqueeze(0).to(self.device)
                 q_values = self.policy_net(state_tensor)
                 action_idx = torch.argmax(q_values).item()
+            log_bluff = True
 
         self.prev_action = action_idx
 
@@ -98,6 +100,10 @@ class MLPlayerDDQN(BasePokerPlayer):
         amount = valid_actions[action_idx].get('amount', 0)
         if action == 'raise':
             amount = valid_actions[action_idx]['amount']['min']
+        # if log_bluff and amount > 0:
+        #     strength = state[0]
+        #     with open('log_bluff.txt', 'a') as f:
+        #         f.write(f'{strength}, {action}, \n')
 
         return action, amount
 
@@ -210,26 +216,6 @@ class MLPlayerDDQN(BasePokerPlayer):
             data = torch.load(self.model_path, map_location=self.device)
             self.policy_net.load_state_dict(data['model'])
             self.epsilon = data.get('epsilon', self.epsilon)
-
-    def plot_training_rewards(self):
-        if len(self.rewards_log) >= 10:
-            smoothed = np.convolve(self.rewards_log, np.ones(10)/10, mode='valid')
-            plt.plot(smoothed)
-            plt.title("Smoothed Round Reward (10-game MA)")
-            plt.xlabel("Rounds")
-            plt.ylabel("Reward")
-            plt.grid()
-            plt.show()
-
-    def plot_win_rate(self):
-        if len(self.win_log) >= 10:
-            avg = np.convolve(self.win_log, np.ones(10)/10, mode='valid')
-            plt.plot(avg, color='green')
-            plt.title("Win Rate Over Time (10-round MA)")
-            plt.xlabel("Rounds")
-            plt.ylabel("Win Rate")
-            plt.grid()
-            plt.show()
 
     def receive_game_start_message(self, game_info): pass
     def receive_round_start_message(self, round_count, hole_card, seats):
