@@ -1395,38 +1395,6 @@ Deepseek response to round start +
 Deepseek response to street start +
 Started the round 1
 Street "preflop" started. (community card = [])
-Deepseek response f
-"deepseek_player" declared "fold:0"
-"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
-Deepseek response to round results +
-Deepseek response to round start +
-Deepseek response to street start +
-Started the round 2
-Street "preflop" started. (community card = [])
-Deepseek response to round update +
-"fair_player" declared "call:10"
-Deepseek response f
-"deepseek_player" declared "fold:0"
-"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
-Deepseek response to round results +
-Deepseek response to round start +
-Deepseek response to street start +
-Started the round 3
-Street "preflop" started. (community card = [])
-Deepseek response f
-"deepseek_player" declared "fold:0"
-"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
-Deepseek response to round results +
-Deepseek response to round start +
-Simulation 15 failed due to HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out. (read timeout=None)
-Start 16
-Simulation 16 failed due to HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2384)')))
-Start 17
-Deepseek response to game start +
-Deepseek response to round start +
-Deepseek response to street start +
-Started the round 1
-Street "preflop" started. (community card = [])
 Deepseek response r 30
 bebra)
 "deepseek_player" declared "raise:30"
@@ -2575,4 +2543,2762 @@ Deepseek response to street start +
 Street "river" started. (community card = ['DQ', 'DT', 'S3', 'SA', 'H8'])
 "['deepseek_player']" won the round 1 (stack = {'fair_player': 0, 'deepseek_player': 200})
 Deepseek response to round results +
+Start 0
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['H9', 'S2', 'C6'])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 125, 'deepseek_player': 75})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['DK', 'C9', 'S5'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "turn" started. (community card = ['DK', 'C9', 'S5', 'HJ'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['DK', 'C9', 'S5', 'HJ', 'HT'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 140, 'deepseek_player': 60})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['D6', 'C5', 'C2'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:25"
+"fair_player" declared "call:25"
+Street "turn" started. (community card = ['D6', 'C5', 'C2', 'HT'])
+Street "river" started. (community card = ['D6', 'C5', 'C2', 'HT', 'ST'])
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "flop" started. (community card = ['D2', 'CA', 'D9'])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "turn" started. (community card = ['D2', 'CA', 'D9', 'HK'])
+Street "river" started. (community card = ['D2', 'CA', 'D9', 'HK', 'DJ'])
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 1
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['CT', 'DA', 'S5'])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Start 2
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['D3', 'C7', 'HJ'])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "turn" started. (community card = ['D3', 'C7', 'HJ', 'HA'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['D3', 'C7', 'HJ', 'HA', 'HK'])
+"deepseek_player" declared "raise:10"
+"fair_player" declared "call:10"
+"['fair_player']" won the round 1 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Start 3
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['SK', 'CT', 'D6'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['S4', 'CQ', 'CT'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Start 4
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['C2', 'C9', 'C7'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['H5', 'C8', 'D4'])
+"deepseek_player" declared "raise:25"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "flop" started. (community card = ['C7', 'D8', 'H5'])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "turn" started. (community card = ['C7', 'D8', 'H5', 'C4'])
+Street "river" started. (community card = ['C7', 'D8', 'H5', 'C4', 'S8'])
+"['fair_player']" won the round 5 (stack = {'fair_player': 160, 'deepseek_player': 40})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['ST', 'D4', 'DQ'])
+"deepseek_player" declared "raise:15"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 125, 'deepseek_player': 75})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['S4', 'C2', 'DA'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Start 5
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['S5', 'S4', 'C2'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Start 6
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['S6', 'SQ', 'H3'])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['H3', 'DT', 'DJ'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['C2', 'S2', 'D7'])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['D6', 'SJ', 'S4'])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 165, 'deepseek_player': 35})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 170, 'deepseek_player': 30})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 165, 'deepseek_player': 35})
+Start 7
+^D
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['H4', 'CJ', 'S9'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Start 8
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['S6', 'D8', 'D7'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "turn" started. (community card = ['S6', 'D8', 'D7', 'D2'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['S6', 'D8', 'D7', 'D2', 'HQ'])
+"['fair_player']" won the round 10 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Start 9
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['S7', 'S5', 'C5'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['DQ', 'DK', 'CK'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "turn" started. (community card = ['DQ', 'DK', 'CK', 'HK'])
+Street "river" started. (community card = ['DQ', 'DK', 'CK', 'HK', 'CJ'])
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 60, 'deepseek_player': 140})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 55, 'deepseek_player': 145})
+Start 10
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 160, 'deepseek_player': 40})
+Start 11
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['D3', 'D7', 'D2'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 160, 'deepseek_player': 40})
+Start 12
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['C2', 'H5', 'D8'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Start 13
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['H8', 'DA', 'S5'])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Start 14
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Start 15
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "flop" started. (community card = ['SQ', 'D5', 'C2'])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 50, 'deepseek_player': 150})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:60"
+"fair_player" declared "call:60"
+Street "flop" started. (community card = ['C3', 'H3', 'HJ'])
+Street "turn" started. (community card = ['C3', 'H3', 'HJ', 'CQ'])
+Street "river" started. (community card = ['C3', 'H3', 'HJ', 'CQ', 'D9'])
+"['fair_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Start 0
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['SK', 'C4', 'H7'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['SK', 'C4', 'H7', 'CT'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['SK', 'C4', 'H7', 'CT', 'DT'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 125, 'deepseek_player': 75})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['H7', 'D9', 'SK'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['H7', 'D9', 'SK', 'C7'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['H7', 'D9', 'SK', 'C7', 'HA'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HJ', 'CQ', 'H7'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['HJ', 'CQ', 'H7', 'D3'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['HJ', 'CQ', 'H7', 'D3', 'S5'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 65, 'deepseek_player': 135})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 65, 'deepseek_player': 135})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 60, 'deepseek_player': 140})
+Start 1
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Start 2
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['H4', 'H7', 'CT'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['H4', 'H7', 'CT', 'H8'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['H4', 'H7', 'CT', 'H8', 'S2'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['ST', 'DK', 'D6'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['ST', 'DK', 'D6', 'CQ'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['ST', 'DK', 'D6', 'CQ', 'C3'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 140, 'deepseek_player': 60})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 140, 'deepseek_player': 60})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['CJ', 'C5', 'HJ'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Start 3
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['D2', 'C3', 'D6'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['D2', 'C3', 'D6', 'S2'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['D2', 'C3', 'D6', 'S2', 'S4'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['HA', 'SQ', 'DJ'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['HA', 'SQ', 'DJ', 'C2'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['HA', 'SQ', 'DJ', 'C2', 'H3'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 50, 'deepseek_player': 150})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 55, 'deepseek_player': 145})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 50, 'deepseek_player': 150})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['CA', 'H6', 'DK'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 20, 'deepseek_player': 180})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['DJ', 'C9', 'C3'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 10, 'deepseek_player': 190})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 15, 'deepseek_player': 185})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 25, 'deepseek_player': 175})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 30, 'deepseek_player': 170})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 25, 'deepseek_player': 175})
+Start 4
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['SA', 'C8', 'CK'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['SA', 'C8', 'CK', 'ST'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['SA', 'C8', 'CK', 'ST', 'S9'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['D5', 'SQ', 'D4'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['D5', 'SQ', 'D4', 'S5'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['D5', 'SQ', 'D4', 'S5', 'D6'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['D9', 'DQ', 'S6'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['D9', 'DQ', 'S6', 'HK'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['D9', 'DQ', 'S6', 'HK', 'DT'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 140, 'deepseek_player': 60})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['H5', 'DK', 'HK'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['H5', 'DK', 'HK', 'D9'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['H5', 'DK', 'HK', 'D9', 'C8'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Start 5
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['S2', 'S5', 'CA'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['S2', 'S5', 'CA', 'CQ'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['S2', 'S5', 'CA', 'CQ', 'D6'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 140, 'deepseek_player': 60})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 140, 'deepseek_player': 60})
+Start 6
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Start 7
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Start 8
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['CJ', 'DT', 'S5'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 60, 'deepseek_player': 140})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 55, 'deepseek_player': 145})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 60, 'deepseek_player': 140})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 85, 'deepseek_player': 115})
+C:\Users\Александр\Desktop\Учеба\PyPokerEngine_diploma\venv\Scripts\python.exe C:\Users\Александр\Desktop\Учеба\PyPokerEngine_diploma\my_game.py
+Создан новый сеанс: b0c03839-21aa-4774-99d7-7674ec985c1a
+Start 0
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['C8', 'D5', 'ST'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['SJ', 'CJ', 'S2'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['SJ', 'CJ', 'S2', 'HJ'])
+"deepseek_player" declared "raise:25"
+"fair_player" declared "call:25"
+Street "river" started. (community card = ['SJ', 'CJ', 'S2', 'HJ', 'SA'])
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 1
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['C3', 'H7', 'ST'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['C3', 'H7', 'ST', 'C4'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['D8', 'CT', 'H3'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 65, 'deepseek_player': 135})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['DA', 'C4', 'S2'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 55, 'deepseek_player': 145})
+Files updated
+Start 2
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['SJ', 'S5', 'H5'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['SJ', 'S5', 'H5', 'H3'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['SJ', 'S5', 'H5', 'H3', 'D4'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['S8', 'HJ', 'C8'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['S8', 'HJ', 'C8', 'C7'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['S8', 'HJ', 'C8', 'C7', 'DJ'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Files updated
+Start 3
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['DK', 'H9', 'DA'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 45, 'deepseek_player': 155})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "flop" started. (community card = ['D3', 'DT', 'HT'])
+Street "turn" started. (community card = ['D3', 'DT', 'HT', 'D7'])
+Street "river" started. (community card = ['D3', 'DT', 'HT', 'D7', 'D2'])
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 4
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HA', 'HT', 'CJ'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['HA', 'HT', 'CJ', 'H4'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['HA', 'HT', 'CJ', 'H4', 'D7'])
+"['fair_player']" won the round 1 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Files updated
+Start 5
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['DJ', 'D9', 'CQ'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['DJ', 'D9', 'CQ', 'H9'])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 125, 'deepseek_player': 75})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['C3', 'HQ', 'H2'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 125, 'deepseek_player': 75})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 125, 'deepseek_player': 75})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 125, 'deepseek_player': 75})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Files updated
+Start 6
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['C7', 'S4', 'HT'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 65, 'deepseek_player': 135})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 65, 'deepseek_player': 135})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Files updated
+Start 7
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['CA', 'C5', 'C2'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 70, 'deepseek_player': 130})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['C6', 'S9', 'D7'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 60, 'deepseek_player': 140})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 65, 'deepseek_player': 135})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "flop" started. (community card = ['DK', 'H6', 'D4'])
+"deepseek_player" declared "raise:60"
+"fair_player" declared "call:60"
+Street "turn" started. (community card = ['DK', 'H6', 'D4', 'DJ'])
+Street "river" started. (community card = ['DK', 'H6', 'D4', 'DJ', 'CJ'])
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 8
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HA', 'HK', 'S2'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 55, 'deepseek_player': 145})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['C7', 'S2', 'SA'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['C7', 'S2', 'SA', 'H3'])
+Street "river" started. (community card = ['C7', 'S2', 'SA', 'H3', 'D5'])
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 9
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['H3', 'S3', 'C7'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['H3', 'S3', 'C7', 'DT'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['H3', 'S3', 'C7', 'DT', 'S2'])
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 10
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['SK', 'C3', 'D7'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "turn" started. (community card = ['SK', 'C3', 'D7', 'HK'])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 110, 'deepseek_player': 90})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HQ', 'D2', 'H7'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['HQ', 'D2', 'H7', 'H6'])
+Street "river" started. (community card = ['HQ', 'D2', 'H7', 'H6', 'H5'])
+"['fair_player']" won the round 7 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Files updated
+Start 12
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Files updated
+Start 13
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Files updated
+Start 14
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['CQ', 'HJ', 'S5'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['CQ', 'HJ', 'S5', 'DQ'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['CQ', 'HJ', 'S5', 'DQ', 'S8'])
+"['fair_player']" won the round 1 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Files updated
+Start 15
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HT', 'DQ', 'DT'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['HT', 'DQ', 'DT', 'S6'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['HT', 'DQ', 'DT', 'S6', 'D9'])
+"['fair_player']" won the round 1 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Files updated
+Start 16
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HJ', 'CQ', 'DK'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['HJ', 'CQ', 'DK', 'C5'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['HJ', 'CQ', 'DK', 'C5', 'S3'])
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 17
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['C4', 'DJ', 'CJ'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['C4', 'DJ', 'CJ', 'S3'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['C4', 'DJ', 'CJ', 'S3', 'DA'])
+"['fair_player']" won the round 9 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Files updated
+Start 18
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['CA', 'C4', 'H3'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 55, 'deepseek_player': 145})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['DT', 'C7', 'H3'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 15, 'deepseek_player': 185})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 5, 'deepseek_player': 195})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['H8', 'H9', 'S2'])
+Street "turn" started. (community card = ['H8', 'H9', 'S2', 'S8'])
+Street "river" started. (community card = ['H8', 'H9', 'S2', 'S8', 'HK'])
+"['fair_player']" won the round 10 (stack = {'fair_player': 10, 'deepseek_player': 190})
+Files updated
+Start 19
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HQ', 'C2', 'SA'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['HQ', 'C2', 'SA', 'S5'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['HQ', 'C2', 'SA', 'S5', 'D8'])
+"['fair_player']" won the round 5 (stack = {'fair_player': 200, 'deepseek_player': 0})
+Files updated
+Start 20
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['C5', 'D6', 'D4'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Files updated
+Start 21
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['S2', 'SK', 'D7'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 65, 'deepseek_player': 135})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['S6', 'C3', 'S9'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 25, 'deepseek_player': 175})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"fair_player" declared "call:15"
+Street "flop" started. (community card = ['DK', 'HT', 'CQ'])
+"deepseek_player" declared "raise:10"
+"fair_player" declared "call:10"
+Street "turn" started. (community card = ['DK', 'HT', 'CQ', 'D8'])
+Street "river" started. (community card = ['DK', 'HT', 'CQ', 'D8', 'C2'])
+"['fair_player']" won the round 7 (stack = {'fair_player': 50, 'deepseek_player': 150})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['C7', 'C8', 'H7'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['C7', 'C8', 'H7', 'C5'])
+Street "river" started. (community card = ['C7', 'C8', 'H7', 'C5', 'HQ'])
+"['fair_player']" won the round 8 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Files updated
+Start 22
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Files updated
+Start 23
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['H2', 'D4', 'S4'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 55, 'deepseek_player': 145})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['D5', 'C7', 'HT'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 15, 'deepseek_player': 185})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"fair_player" declared "call:15"
+Street "flop" started. (community card = ['D4', 'S3', 'D2'])
+Street "turn" started. (community card = ['D4', 'S3', 'D2', 'D3'])
+Street "river" started. (community card = ['D4', 'S3', 'D2', 'D3', 'C7'])
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 24
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 135, 'deepseek_player': 65})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 145, 'deepseek_player': 55})
+Files updated
+Start 25
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['SJ', 'H7', 'H9'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['SJ', 'H7', 'H9', 'DT'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:15"
+"fair_player" declared "call:15"
+Street "river" started. (community card = ['SJ', 'H7', 'H9', 'DT', 'D8'])
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 10, 'deepseek_player': 190})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['HK', 'S5', 'H6'])
+Street "turn" started. (community card = ['HK', 'S5', 'H6', 'C2'])
+Street "river" started. (community card = ['HK', 'S5', 'H6', 'C2', 'CA'])
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 26
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['H8', 'CT', 'S2'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['H8', 'CT', 'S2', 'S5'])
+Street "river" started. (community card = ['H8', 'CT', 'S2', 'S5', 'SQ'])
+"['fair_player']" won the round 6 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Files updated
+Start 27
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 75, 'deepseek_player': 125})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['HQ', 'DQ', 'S4'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['HQ', 'DQ', 'S4', 'C6'])
+Street "river" started. (community card = ['HQ', 'DQ', 'S4', 'C6', 'H7'])
+"['fair_player']" won the round 6 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 155, 'deepseek_player': 45})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 150, 'deepseek_player': 50})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['S9', 'S8', 'S6'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "turn" started. (community card = ['S9', 'S8', 'S6', 'ST'])
+Street "river" started. (community card = ['S9', 'S8', 'S6', 'ST', 'CJ'])
+"['deepseek_player']" won the round 9 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Files updated
+Start 28
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['S3', 'H7', 'C7'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['S3', 'H7', 'C7', 'C9'])
+"deepseek_player" declared "raise:20"
+"fair_player" declared "call:20"
+Street "river" started. (community card = ['S3', 'H7', 'C7', 'C9', 'D4'])
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 29
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 10 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Files updated
+Start 30
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 7 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['D5', 'D3', 'DQ'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['D5', 'D3', 'DQ', 'D8'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['D5', 'D3', 'DQ', 'D8', 'C9'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 195, 'deepseek_player': 5})
+Start 31
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['D8', 'CA', 'S2'])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 80, 'deepseek_player': 120})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 8 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 9 (stack = {'fair_player': 95, 'deepseek_player': 105})
+Started the round 10
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Files updated
 Start 32
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 90, 'deepseek_player': 110})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 85, 'deepseek_player': 115})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['H2', 'HK', 'DT'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['H2', 'HK', 'DT', 'S2'])
+"deepseek_player" declared "raise:35"
+"fair_player" declared "call:35"
+Street "river" started. (community card = ['H2', 'HK', 'DT', 'S2', 'C7'])
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 33
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 4 (stack = {'fair_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+Simulation 33 failed due to Response ended prematurely
+Start 34
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 2 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 5 (stack = {'fair_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 115, 'deepseek_player': 85})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['H8', 'SQ', 'S5'])
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['H8', 'SQ', 'S5', 'D6'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+Street "river" started. (community card = ['H8', 'SQ', 'S5', 'D6', 'H9'])
+"deepseek_player" declared "call:0"
+"fair_player" declared "call:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 35, 'deepseek_player': 165})
+Started the round 8
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"fair_player" declared "call:40"
+Street "flop" started. (community card = ['C3', 'HJ', 'H3'])
+Street "turn" started. (community card = ['C3', 'HJ', 'H3', 'S8'])
+Street "river" started. (community card = ['C3', 'HJ', 'H3', 'S8', 'H7'])
+"['deepseek_player']" won the round 8 (stack = {'fair_player': 0, 'deepseek_player': 200})
+Start 35
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 1 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'fair_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['fair_player']" won the round 3 (stack = {'fair_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"fair_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"fair_player" declared "call:30"
+Street "flop" started. (community card = ['HQ', 'HT', 'DT'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:50"
+"fair_player" declared "call:50"
+Street "turn" started. (community card = ['HQ', 'HT', 'DT', 'CK'])
+"fair_player" declared "call:0"
+"deepseek_player" declared "raise:15"
+"fair_player" declared "call:15"
+Street "river" started. (community card = ['HQ', 'HT', 'DT', 'CK', 'S3'])
+"['deepseek_player']" won the round 4 (stack = {'fair_player': 10, 'deepseek_player': 190})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "call:10"
+"fair_player" declared "call:10"
+Street "flop" started. (community card = ['CT', 'H8', 'H5'])
+Street "turn" started. (community card = ['CT', 'H8', 'H5', 'HT'])
+Street "river" started. (community card = ['CT', 'H8', 'H5', 'HT', 'S8'])
+"['fair_player']" won the round 5 (stack = {'fair_player': 20, 'deepseek_player': 180})
+Started the round 6
+Street "preflop" started. (community card = [])
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'fair_player': 15, 'deepseek_player': 185})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"fair_player" declared "fold:0"
+"['deepseek_player']" won the round 7 (stack = {'fair_player': 5, 'deepseek_player': 195})
+Start 0

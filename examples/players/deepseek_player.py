@@ -4,6 +4,7 @@ import requests
 from uuid import uuid4
 from pypokerengine.players import BasePokerPlayer
 import datetime
+import time
 
 load_dotenv()
 
@@ -59,10 +60,16 @@ class DeepSeekChat:
             "temperature": 0.7
         }
 
-        response = requests.post(self.base_url, headers=headers, json=data)
-        response_data = response.json()
+        for i in range(5):
+            response = requests.post(self.base_url, headers=headers, json=data)
+            response_data = response.json()
+            if response.status_code == 200:
+                break
+            else:
+                time.sleep(5)
 
         if response.status_code == 200:
+            # reasoning_content = response_data["choices"][0]["message"]["reasoning_content"]
             ai_response = response_data["choices"][0]["message"]["content"]
             session["messages"].extend([
                 {"role": "user", "content": prompt},
@@ -71,6 +78,7 @@ class DeepSeekChat:
 
             with open(f'{self.current_session}.txt', 'a') as file:
                 file.write(ai_response + '\n')
+                # file.write(reasoning_content + '\n')
 
             return ai_response
         else:
@@ -78,11 +86,20 @@ class DeepSeekChat:
 
 
 SYSTEM_PROMT = """
-You are a professional poker player. Firstly, you receive the rules of the game. 
-Then, for each round you receive all available information, based on which you have to make decision
-You can either call - then you return "c", fold - then you return "f", or raise - then you return "r amount", like "r 50"
-YOUR RESPONSE ALWAYS HAS TO BE ONLY OF FORM "f", "c" OR "r __amount__", NO OTHER SYMBOLS ARE AVAILABLE
-DO NOT FOLD IF YOU CAN CALL FOR FREE!!!
+You are a professional No-Limit Texas Hold'em player. Make decisions based on:
+- Your hole cards
+- Community cards
+- Pot size
+- Stack sizes
+- Opponent behavior
+
+Valid actions:
+- Fold (return "f")
+- Call/Check (return "c")
+- Raise (return "r X" where X is between [min] and [max])
+
+NEVER FOLD IF YOU CAN CALL FOR FREE!!! Consider position and pot odds. Analyze your opponent's behavior and bluff strategically.
+Respond ONLY with "f", "c", or "r X". No explanations.
 """
 api_key = os.getenv('API_KEY')
 
@@ -228,39 +245,25 @@ return '+' if you understand
     return lambda msg: input(msg)
 
   def __receive_action_from_deepseek(self, valid_actions, response, promt):
-    if response in self.__gen_valid_flg(valid_actions) or response[0] in self.__gen_valid_flg(valid_actions):
+      retry = False
       if response == 'f':
-        return valid_actions[0]['action'], valid_actions[0]['amount']
+          return valid_actions[0]['action'], valid_actions[0]['amount']
       elif response == 'c':
-        return valid_actions[1]['action'], valid_actions[1]['amount']
+          return valid_actions[1]['action'], valid_actions[1]['amount']
       elif response[0] == 'r':
-        valid_amounts = valid_actions[2]['amount']
-        try:
-            deepseek_amt = int(response.split()[1])
-        except:
-            print(f'Invalid raise input {response}')
-        raise_amount = self.__receive_raise_amount_from_deepseek(valid_amounts['min'], valid_amounts['max'], deepseek_amt)
-        return valid_actions[2]['action'], raise_amount
-    else:
-        response = self.chat.get_response(promt)
-        return self.__receive_action_from_deepseek(valid_actions, response, promt)
-
-  def __gen_valid_flg(self, valid_actions):
-    flgs = ['f', 'c']
-    is_raise_possible = valid_actions[2]['amount']['min'] != -1
-    if is_raise_possible:
-      flgs.append('r')
-    return flgs
-
-    #TODO поменять это гавно, а то цикл бесконечный
-  def __receive_raise_amount_from_deepseek(self, min_amount, max_amount, deepseek_amount):
-    try:
-      if min_amount <= deepseek_amount and deepseek_amount <= max_amount:
-        return deepseek_amount
+          valid_amounts = valid_actions[2]['amount']
+          try:
+              deepseek_amt = int(response.split()[1])
+              if valid_amounts['min'] <= deepseek_amt and deepseek_amt <= valid_amounts['max']:
+                  return valid_actions[2]['action'], deepseek_amt
+              else:
+                  retry = True
+          except:
+              print(f'Invalid raise input {response}')
+              retry = True
       else:
-        print("Invalid raise amount %d. Try again.")
-        return (min_amount+max_amount)//2
-    except:
-      print("Invalid input received. Try again.")
-      return (min_amount+max_amount)//2
-
+          retry = True
+      if retry:
+          print('Retry getting action from deepseek')
+          response = self.chat.get_response(promt)
+          return self.__receive_action_from_deepseek(valid_actions, response, promt)

@@ -15,10 +15,29 @@ ACTION_IDX = {a: i for i, a in enumerate(ACTIONS)}
 
 
 class DuelingQNetwork(nn.Module):
+    # def __init__(self, input_dim, output_dim):
+    #     super(DuelingQNetwork, self).__init__()
+    #     self.feature = nn.Sequential(
+    #         nn.Linear(input_dim, 128),
+    #         nn.ReLU()
+    #     )
+    #     self.value_stream = nn.Sequential(
+    #         nn.Linear(128, 128),
+    #         nn.ReLU(),
+    #         nn.Linear(128, 1)
+    #     )
+    #     self.advantage_stream = nn.Sequential(
+    #         nn.Linear(128, 128),
+    #         nn.ReLU(),
+    #         nn.Linear(128, output_dim)
+    #     )
+
     def __init__(self, input_dim, output_dim):
         super(DuelingQNetwork, self).__init__()
         self.feature = nn.Sequential(
-            nn.Linear(input_dim, 128),
+            nn.Linear(input_dim, 256),
+            nn.ReLU(),
+            nn.Linear(256, 128),
             nn.ReLU()
         )
         self.value_stream = nn.Sequential(
@@ -41,7 +60,7 @@ class DuelingQNetwork(nn.Module):
 
 
 class MLPlayerDDQN(BasePokerPlayer):
-    def __init__(self, model_path, state_dim=5, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
+    def __init__(self, model_path, initial_stack, state_dim=9, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
                  epsilon=1.0, epsilon_min=0.15, epsilon_decay=0.999, tau=0.01, alpha=0.6, beta=0.4):
         self.state_dim = state_dim
         self.action_dim = len(ACTIONS)
@@ -60,6 +79,7 @@ class MLPlayerDDQN(BasePokerPlayer):
         self.buffer_size = buffer_size
         self.batch_size = batch_size
         self.gamma = gamma
+        self.initial_stack = initial_stack
 
         self.epsilon = epsilon
         self.epsilon_min = epsilon_min
@@ -171,11 +191,21 @@ class MLPlayerDDQN(BasePokerPlayer):
     def encode_state(self, hole_card, round_state):
         community_cards = round_state['community_card']
         strength = self.evaluate_hand_strength(hole_card, community_cards)
-        pot = round_state['pot']['main']['amount'] / 1000.0
+        pot = round_state['pot']['main']['amount'] / self.initial_stack
         num_community = len(round_state['community_card']) / 5.0
         pos = self.get_position(round_state)
-        stack = self.get_stack(round_state) / 1000.0
-        return [strength, pot, num_community, pos, stack]
+        stack = self.get_stack(round_state) / self.initial_stack
+        if self.win_log:
+            win_prop = sum(self.win_log)/len(self.win_log)
+        else:
+            win_prop = 0.5
+        if sum(self.opp_moves) == 0:
+            moves = [0.33, 0.33, 0.33]
+        else:
+            moves = []
+            for m in self.opp_moves:
+                moves.append(m/sum(self.opp_moves))
+        return [strength, pot, num_community, pos, stack,win_prop] + moves
 
     def evaluate_hand_strength(self, hole_card, community_cards):
         evaluator = Evaluator()
@@ -217,8 +247,17 @@ class MLPlayerDDQN(BasePokerPlayer):
             self.policy_net.load_state_dict(data['model'])
             self.epsilon = data.get('epsilon', self.epsilon)
 
-    def receive_game_start_message(self, game_info): pass
+    def receive_game_start_message(self, game_info):
+        self.opp_moves = [0,0,0]
     def receive_round_start_message(self, round_count, hole_card, seats):
         self.hole_card = hole_card
     def receive_street_start_message(self, street, round_state): pass
-    def receive_game_update_message(self, new_action, round_state): pass
+    def receive_game_update_message(self, action, round_state):
+        pass
+        if action['player_uuid'] != self.uuid:
+            if action['action'] == 'fold':
+                self.opp_moves[0] += 1
+            elif action['action'] == 'call':
+                self.opp_moves[1] += 1
+            else:
+                self.opp_moves[2] += 1
