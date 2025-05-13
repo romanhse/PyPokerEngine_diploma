@@ -5,6 +5,8 @@ from uuid import uuid4
 from pypokerengine.players import BasePokerPlayer
 import datetime
 import time
+from treys import Evaluator, Card
+
 
 load_dotenv()
 
@@ -99,7 +101,27 @@ Valid actions:
 - Raise (return "r X" where X is between [min] and [max])
 
 NEVER FOLD IF YOU CAN CALL FOR FREE!!! Consider position and pot odds. Analyze your opponent's behavior and bluff strategically.
+Do not forget, that your opponent may bluff as well
 Respond ONLY with "f", "c", or "r X". No explanations.
+"""
+SYSTEM_PROMT_NEW = """
+You are a professional No-Limit Texas Hold'em player. Make decisions based on:
+- Your hole cards
+- Community cards
+- Pot size
+- Stack sizes
+- Opponent behavior
+
+Valid actions:
+- Fold (return "f")
+- Call/Check (return "c")
+- Raise (return "r X" where X is between [min] and [max])
+
+NEVER FOLD IF YOU CAN CALL FOR FREE!!! Consider position and pot odds. Analyze your opponent's behavior and bluff strategically.
+Do not forget, that your opponent may bluff as well
+Starting form flop position you will receive the relative strength of your hand with regards to current community cards.
+It will be in a range from 0 to 1, where 0 - the weakest hand, 1- the strongest. Take that info into account.
+Respond ONLY with "f", "c", or "r X". No explanations. 
 """
 api_key = os.getenv('API_KEY')
 
@@ -108,11 +130,14 @@ api_key = os.getenv('API_KEY')
 
 class DeepseekPlayer(BasePokerPlayer):
 
-  def __init__(self, deepseek_log_file, other_log_file):
+  def __init__(self, deepseek_log_file, other_log_file, new_version = False):
     self.deepseek_file = deepseek_log_file
     self.other_file = other_log_file
-    self.chat = DeepSeekChat(api_key, SYSTEM_PROMT)
-    self.my_uuid = None
+    self.new_version = new_version
+    if self.new_version:
+        self.chat = DeepSeekChat(api_key, SYSTEM_PROMT_NEW)
+    else:
+        self.chat = DeepSeekChat(api_key, SYSTEM_PROMT)
     self.our_stack = []
     self.opp_stack = []
     main_session = self.chat.create_session()
@@ -123,6 +148,10 @@ class DeepseekPlayer(BasePokerPlayer):
     del round_state['action_histories']
     for j in round_state['seats']:
         del j['name']
+    have_strength = False
+    if len(round_state['community_card']) > 0:
+        have_strength = True
+        hand_strength = self.evaluate_hand_strength(hole_card, round_state['community_card'])
     promt = \
 f"""Valid actions: {valid_actions}
 Your cards: {hole_card}
@@ -133,9 +162,31 @@ Your stack: {seats[0]}, your state: {seats[1]}
 Opponent stack: {seats[2]}, opponent state: {seats[3]}
 Return your action
 """
+    if self.new_version:
+        if have_strength:
+            promt = \
+                f"""Valid actions: {valid_actions}
+            Your cards: {hole_card}
+            Game info: 
+            pot:{round_state['pot']['main']['amount']}
+            community cards: {round_state['community_card']}
+            Your stack: {seats[0]}, your state: {seats[1]}
+            Opponent stack: {seats[2]}, opponent state: {seats[3]}
+            Your sthength: {hand_strength}
+            Return your action
+            """
+
     response = self.chat.get_response(promt)
     # print(f'Deepseek response {response}')
     action, amount = self.__receive_action_from_deepseek(valid_actions, response, promt)
+    if have_strength and amount > 0:
+        if self.new_version:
+            with open('deepseek_new_bluff.txt', 'a') as f:
+                f.write(f'{hand_strength}, {action}, {amount}, \n')
+        else:
+            with open('deepseek_old_bluff.txt', 'a') as f:
+                f.write(f'{hand_strength}, {action}, {amount}, \n')
+
     return action, amount
 
   def receive_game_start_message(self, game_info):
@@ -148,11 +199,8 @@ Small blind: {game_info['rule']['small_blind_amount']} , big blind: {2*game_info
 return '+' if you understand
 """
     response = self.chat.get_response(promt)
-    for i in game_info['seats']:
-        if i['name'] == 'deepseek_player':
-            self.my_uuid = i['uuid']
 
-    if self.our_stack:
+    if self.our_stack and not self.new_version:
         with open(self.deepseek_file, 'a') as f:
             for i in self.our_stack:
                 f.write(i + ' ')
@@ -168,7 +216,7 @@ return '+' if you understand
 
   def get_seats(self, seats):
       for i in seats:
-          if i['uuid'] == self.my_uuid:
+          if i['uuid'] == self.uuid:
               our_amount = int(i['stack'])
               our_state = i['state']
           else:
@@ -199,7 +247,7 @@ return '+' if you understand
       # print(f'Deepseek response to street start {response}')
 
   def receive_game_update_message(self, new_action, round_state):
-    if new_action['player_uuid'] != self.my_uuid:
+    if new_action['player_uuid'] != self.uuid:
         promt = \
 f"""Your opponent declared action: {new_action['action']} with amount {new_action['amount']}
 return '+' if you understand
@@ -212,21 +260,7 @@ return '+' if you understand
       self.our_stack.append(str(seats[0]))
       self.opp_stack.append(str(seats[2]))
 
-      #TODO: parametrise round count and first sum
-      # if round_state['round_count'] == 10 or int(seats[0]) == 0  or int(seats[0]) == 200:
-      #     with open(self.deepseek_file, 'a') as f:
-      #         for i in self.our_stack:
-      #           f.write(i + ' ')
-      #         f.write('\n')
-      #     with open(self.other_file, 'a') as f:
-      #         for i in self.opp_stack:
-      #             f.write(i + ' ')
-      #         f.write('\n')
-      #     self.opp_stack = ['100']
-      #     self.our_stack = ['100']
-      #     print('Files updated')
-
-      if winners[0]['uuid'] == self.my_uuid:
+      if winners[0]['uuid'] == self.uuid:
           winner = 'You'
       else:
           winner = 'Opponent'
@@ -267,3 +301,20 @@ return '+' if you understand
           print('Retry getting action from deepseek')
           response = self.chat.get_response(promt)
           return self.__receive_action_from_deepseek(valid_actions, response, promt)
+
+  def evaluate_hand_strength(self, hole_card, community_cards):
+      evaluator = Evaluator()
+      hand = []
+      board = []
+      for card in hole_card:
+          new_format = card[1] + card[0].lower()
+          hand.append(Card.new(new_format))
+      for card in community_cards:
+          new_format = card[1] + card[0].lower()
+          board.append(Card.new(new_format))
+      if len(board) < 3:
+          return 0.5
+      else:
+          score = evaluator.evaluate(hand, board)
+          percentile = evaluator.get_five_card_rank_percentage(score)
+          return 1 - percentile
