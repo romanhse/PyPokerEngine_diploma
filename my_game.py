@@ -7,10 +7,10 @@ from examples.players.honest_player import HonestPlayer
 from examples.players.mlplayerddqn import MLPlayerDDQN
 
 config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
-# config.register_player(name="ddqn_player", algorithm=MLPlayerDDQN('dueling_ddqn_model_2000.pt'))
-# config.register_player(name="deepseek_player", algorithm=DeepseekPlayer('deepseek_vs_ddqn.txt', 'ddqn.txt'))
-config.register_player(name = 'nigga', algorithm=HonestPlayer())
-config.register_player(name = 'nigga1', algorithm=HonestPlayer())
+config.register_player(name="ddqn_player", algorithm=MLPlayerDDQN('dueling_ddqn_model_7.pt', 100))
+config.register_player(name="deepseek_player", algorithm=DeepseekPlayer('deepseek_vs_ddqn.txt', 'ddqn.txt'))
+# config.register_player(name = 'nigga', algorithm=HonestPlayer())
+# config.register_player(name = 'nigga1', algorithm=HonestPlayer())
 res = []
 for i in range(100):
     print(f'Start {i}')
