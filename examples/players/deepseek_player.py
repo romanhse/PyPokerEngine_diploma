@@ -100,7 +100,7 @@ Valid actions:
 - Call/Check (return "c")
 - Raise (return "r X" where X is between [min] and [max])
 
-NEVER FOLD IF YOU CAN CALL FOR FREE!!! Consider position and pot odds. Analyze your opponent's behavior and bluff strategically.
+DO NOT FOLD BEFORE THE FLOP!!! Consider position and pot odds. Analyze your opponent's behavior and bluff strategically.
 Do not forget, that your opponent may bluff as well
 Respond ONLY with "f", "c", or "r X". No explanations.
 """
@@ -117,7 +117,7 @@ Valid actions:
 - Call/Check (return "c")
 - Raise (return "r X" where X is between [min] and [max])
 
-NEVER FOLD IF YOU CAN CALL FOR FREE!!! Consider position and pot odds. Analyze your opponent's behavior and bluff strategically.
+DO NOT FOLD BEFORE THE FLOP!!! Consider position and pot odds. Analyze your opponent's behavior and bluff strategically.
 Do not forget, that your opponent may bluff as well
 Starting form flop position you will receive the relative strength of your hand with regards to current community cards.
 It will be in a range from 0 to 1, where 0 - the weakest hand, 1- the strongest. Take that info into account.
