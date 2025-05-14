@@ -1,0 +1,3556 @@
+C:\Users\Александр\Desktop\Учеба\PyPokerEngine_diploma\venv\Scripts\python.exe C:\Users\Александр\Desktop\Учеба\PyPokerEngine_diploma\my_game.py
+Создан новый сеанс: 673745f0-2a2d-4caa-820b-95bf7b502a12
+Start 0
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 1
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "call:10"
+Street "flop" started. (community card = ['HK', 'C6', 'C5'])
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "call:10"
+Street "turn" started. (community card = ['HK', 'C6', 'C5', 'C3'])
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "call:10"
+Street "river" started. (community card = ['HK', 'C6', 'C5', 'C3', 'H8'])
+"ddqn_player" declared "call:0"
+"deepseek_player" declared "call:0"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 75, 'deepseek_player': 125})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "call:70"
+Street "flop" started. (community card = ['C3', 'SJ', 'CQ'])
+"deepseek_player" declared "raise:55"
+"ddqn_player" declared "call:55"
+Street "turn" started. (community card = ['C3', 'SJ', 'CQ', 'C9'])
+Street "river" started. (community card = ['C3', 'SJ', 'CQ', 'C9', 'H7'])
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 0, 'deepseek_player': 200})
+0
+Start 2
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:65"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 3
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 4
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "raise:60"
+"ddqn_player" declared "call:60"
+Street "flop" started. (community card = ['H3', 'DA', 'CA'])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "call:25"
+Street "turn" started. (community card = ['H3', 'DA', 'CA', 'C7'])
+Street "river" started. (community card = ['H3', 'DA', 'CA', 'C7', 'D5'])
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 30, 'deepseek_player': 170})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 15, 'deepseek_player': 185})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 5 (stack = {'ddqn_player': 5, 'deepseek_player': 195})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 0, 'deepseek_player': 200})
+0
+Start 5
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "raise:55"
+"ddqn_player" declared "call:55"
+Street "flop" started. (community card = ['HJ', 'D2', 'H5'])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "turn" started. (community card = ['HJ', 'D2', 'H5', 'CK'])
+Street "river" started. (community card = ['HJ', 'D2', 'H5', 'CK', 'ST'])
+"['deepseek_player']" won the round 5 (stack = {'ddqn_player': 60, 'deepseek_player': 140})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 70, 'deepseek_player': 130})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 75, 'deepseek_player': 125})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:95"
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 25, 'deepseek_player': 175})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 9 (stack = {'ddqn_player': 15, 'deepseek_player': 185})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 25, 'deepseek_player': 175})
+25
+Start 6
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "raise:75"
+"ddqn_player" declared "call:75"
+Street "flop" started. (community card = ['D2', 'S7', 'H7'])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "call:25"
+Street "turn" started. (community card = ['D2', 'S7', 'H7', 'H5'])
+Street "river" started. (community card = ['D2', 'S7', 'H7', 'H5', 'HQ'])
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 7
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 8
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "call:70"
+Street "flop" started. (community card = ['H6', 'SK', 'D5'])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 1 (stack = {'ddqn_player': 30, 'deepseek_player': 170})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "call:40"
+Street "flop" started. (community card = ['C8', 'HK', 'C6'])
+Street "turn" started. (community card = ['C8', 'HK', 'C6', 'D8'])
+Street "river" started. (community card = ['C8', 'HK', 'C6', 'D8', 'DK'])
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 60, 'deepseek_player': 140})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:35"
+"ddqn_player" declared "raise:60"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 95, 'deepseek_player': 105})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+180
+Start 9
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 10
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:65"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:35"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 11
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "raise:20"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 12
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "raise:20"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 13
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "raise:20"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 14
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "raise:75"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 1 (stack = {'ddqn_player': 60, 'deepseek_player': 140})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 45, 'deepseek_player': 155})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 35, 'deepseek_player': 165})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 20, 'deepseek_player': 180})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 5 (stack = {'ddqn_player': 10, 'deepseek_player': 190})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 5, 'deepseek_player': 195})
+0
+Start 15
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "raise:20"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 16
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'ddqn_player': 90, 'deepseek_player': 110})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 17
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "raise:20"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 18
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "raise:20"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 19
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "raise:20"
+"ddqn_player" declared "raise:30"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 20
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "raise:75"
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'ddqn_player': 60, 'deepseek_player': 140})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 45, 'deepseek_player': 155})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 35, 'deepseek_player': 165})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 20, 'deepseek_player': 180})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 5 (stack = {'ddqn_player': 10, 'deepseek_player': 190})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 5, 'deepseek_player': 195})
+0
+Start 21
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 1 (stack = {'ddqn_player': 50, 'deepseek_player': 150})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 35, 'deepseek_player': 165})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 25, 'deepseek_player': 175})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 10, 'deepseek_player': 190})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:-1"
+"['deepseek_player']" won the round 5 (stack = {'ddqn_player': 0, 'deepseek_player': 200})
+0
+Start 22
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 23
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "call:70"
+Street "flop" started. (community card = ['S3', 'DA', 'D6'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['SQ', 'H3', 'HQ'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 24
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "raise:20"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 25
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['HJ', 'C4', 'H7'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 26
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['SA', 'C7', 'C4'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['SA', 'C7', 'C4', 'H2'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "river" started. (community card = ['SA', 'C7', 'C4', 'H2', 'S2'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 27
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['SA', 'D5', 'H9'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['SA', 'D5', 'H9', 'DJ'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "river" started. (community card = ['SA', 'D5', 'H9', 'DJ', 'HQ'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 28
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['DK', 'S9', 'C8'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 29
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['S2', 'SA', 'S9'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['S2', 'SA', 'S9', 'D5'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 30
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['S4', 'H8', 'SQ'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['S4', 'H8', 'SQ', 'C9'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "river" started. (community card = ['S4', 'H8', 'SQ', 'C9', 'S6'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 31
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['HA', 'H5', 'C8'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 32
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "raise:70"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['H9', 'DT', 'C8'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['H9', 'DT', 'C8', 'H3'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "river" started. (community card = ['H9', 'DT', 'C8', 'H3', 'HJ'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+"['deepseek_player']" won the round 3 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 33
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:15"
+"ddqn_player" declared "call:15"
+Street "flop" started. (community card = ['C5', 'S3', 'D7'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['C5', 'S3', 'D7', 'C7'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "river" started. (community card = ['C5', 'S3', 'D7', 'C7', 'DT'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+"['deepseek_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+155
+Start 34
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "call:30"
+Street "flop" started. (community card = ['HA', 'S3', 'H6'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 9 (stack = {'ddqn_player': 100, 'deepseek_player': 100})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+150
+Start 35
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "call:30"
+Street "flop" started. (community card = ['S3', 'S4', 'D5'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "call:30"
+Street "flop" started. (community card = ['H9', 'DJ', 'C8'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['H9', 'DJ', 'C8', 'SA'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "river" started. (community card = ['H9', 'DJ', 'C8', 'SA', 'C6'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+180
+Start 36
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "call:30"
+Street "flop" started. (community card = ['S5', 'D2', 'S8'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 37
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "call:30"
+Street "flop" started. (community card = ['CK', 'D2', 'D6'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "turn" started. (community card = ['CK', 'D2', 'D6', 'S3'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+Street "river" started. (community card = ['CK', 'D2', 'D6', 'S3', 'DT'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "call:0"
+"['deepseek_player']" won the round 7 (stack = {'ddqn_player': 100, 'deepseek_player': 100})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:45"
+"ddqn_player" declared "raise:80"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 38
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "call:30"
+Street "flop" started. (community card = ['DA', 'DJ', 'H6'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 125, 'deepseek_player': 75})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "call:50"
+Street "flop" started. (community card = ['SJ', 'H9', 'CK'])
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 39
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+130
+Start 40
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "call:50"
+Street "flop" started. (community card = ['S2', 'C9', 'H8'])
+"ddqn_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "turn" started. (community card = ['S2', 'C9', 'H8', 'DT'])
+"ddqn_player" declared "call:0"
+"deepseek_player" declared "call:0"
+Street "river" started. (community card = ['S2', 'C9', 'H8', 'DT', 'HK'])
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 41
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:65"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 42
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 43
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:65"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 44
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Simulation 44 failed due to Expecting value: line 10 column 1 (char 9)
+Start 45
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+145
+Start 46
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+140
+Start 47
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+165
+Start 48
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:70"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+160
+Start 49
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+145
+Start 50
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+155
+Start 51
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:65"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 52
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+170
+Start 53
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 100, 'deepseek_player': 100})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+145
+Start 54
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 10 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+160
+Start 55
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 56
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 57
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 58
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 8 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+145
+Start 59
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 60
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 61
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 62
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 63
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "call:30"
+Street "flop" started. (community card = ['DT', 'S4', 'DA'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "call:10"
+Street "turn" started. (community card = ['DT', 'S4', 'DA', 'HK'])
+"deepseek_player" declared "call:0"
+"ddqn_player" declared "raise:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 64
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 65
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 66
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 67
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 2 (stack = {'ddqn_player': 125, 'deepseek_player': 75})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 6 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 68
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 69
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 70
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:70"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 71
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 72
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 73
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:90"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 74
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 75
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:70"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 180, 'deepseek_player': 20})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 76
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 77
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 78
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 79
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 80
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:40"
+"ddqn_player" declared "raise:65"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 81
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:25"
+"ddqn_player" declared "raise:40"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 195, 'deepseek_player': 5})
+195
+Start 82
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "fold:0"
+"['deepseek_player']" won the round 4 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+185
+Start 83
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 84
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 140, 'deepseek_player': 60})
+Simulation 84 failed due to Response ended prematurely
+Start 85
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "raise:50"
+"ddqn_player" declared "raise:85"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 155, 'deepseek_player': 45})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 170, 'deepseek_player': 30})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 185, 'deepseek_player': 15})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 190, 'deepseek_player': 10})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "call:10"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 200, 'deepseek_player': 0})
+200
+Start 86
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 105, 'deepseek_player': 95})
+Started the round 2
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 2 (stack = {'ddqn_player': 115, 'deepseek_player': 85})
+Started the round 3
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 3 (stack = {'ddqn_player': 120, 'deepseek_player': 80})
+Started the round 4
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 4 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+Started the round 5
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 5 (stack = {'ddqn_player': 135, 'deepseek_player': 65})
+Started the round 6
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 6 (stack = {'ddqn_player': 145, 'deepseek_player': 55})
+Started the round 7
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 7 (stack = {'ddqn_player': 150, 'deepseek_player': 50})
+Started the round 8
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 8 (stack = {'ddqn_player': 160, 'deepseek_player': 40})
+Started the round 9
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 9 (stack = {'ddqn_player': 165, 'deepseek_player': 35})
+Started the round 10
+Street "preflop" started. (community card = [])
+"ddqn_player" declared "raise:15"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 10 (stack = {'ddqn_player': 175, 'deepseek_player': 25})
+175
+Start 87
+Files updated
+Started the round 1
+Street "preflop" started. (community card = [])
+"deepseek_player" declared "raise:30"
+"ddqn_player" declared "raise:50"
+"deepseek_player" declared "fold:0"
+"['ddqn_player']" won the round 1 (stack = {'ddqn_player': 130, 'deepseek_player': 70})
+
+Process finished with exit code -1

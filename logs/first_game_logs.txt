@@ -1,0 +1,1052 @@
+Создан новый сеанс: 27cf46a9-7fd7-46ad-8ef4-68d43056bb79
+-- Game start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- rule --
+  - 2 players game
+  - 10 round
+  - start stack = 100
+  -        ante = 0
+  - small blind = 5
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to game start +
+-- Round 1 start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- hole card --
+  - ['C6', 'D3']
+-- players information --
+  - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 90
+  - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 95
+======================================================================
+Enter some key to continue ...
+Deepseek response to round start +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+Deepseek response r 20
+bebra)
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared raise: 20
+-- round state --
+  - dealer btn : human_player
+  - street : preflop
+  - community card : []
+  - pot : main = 30, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 90 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 20
+  - raise: [30, 100]
+-- hole card --
+  - ['C6', 'D3']
+-- round state --
+  - dealer btn : human_player
+  - street : preflop
+  - community card : []
+  - pot : main = 30, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 90 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 20
+-- round state --
+  - dealer btn : human_player
+  - street : preflop
+  - community card : []
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - flop
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+
+Deepseek response c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : flop
+  - community card : ['H8', 'H4', 'S2']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 80]
+-- hole card --
+  - ['C6', 'D3']
+-- round state --
+  - dealer btn : human_player
+  - street : flop
+  - community card : ['H8', 'H4', 'S2']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : flop
+  - community card : ['H8', 'H4', 'S2']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - turn
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+Deepseek response c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : turn
+  - community card : ['H8', 'H4', 'S2', 'D2']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...c
+Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 80]
+-- hole card --
+  - ['C6', 'D3']
+-- round state --
+  - dealer btn : human_player
+  - street : turn
+  - community card : ['H8', 'H4', 'S2', 'D2']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : turn
+  - community card : ['H8', 'H4', 'S2', 'D2']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - river
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+Deepseek response c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : river
+  - community card : ['H8', 'H4', 'S2', 'D2', 'S6']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...c
+Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 80]
+-- hole card --
+  - ['C6', 'D3']
+-- round state --
+  - dealer btn : human_player
+  - street : river
+  - community card : ['H8', 'H4', 'S2', 'D2', 'S6']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> c 
+Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : river
+  - community card : ['H8', 'H4', 'S2', 'D2', 'S6']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 80 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to round update +
+-- Round result (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- winners --
+  - human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 120
+-- hand info --
+  - human_player (ekeywanuwdjvglxjunoais)
+    - hand => TWOPAIR (high=6, low=2)
+    - hole => [6, 3]
+  - deepseek_player (jjhysdtktmufjtwdzmlurd)
+    - hand => TWOPAIR (high=5, low=2)
+    - hole => [5, 5]
+-- round state --
+  - dealer btn : human_player
+  - street : showdown
+  - community card : ['H8', 'H4', 'S2', 'D2', 'S6']
+  - pot : main = 40, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 120 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 80 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 20, 'paid': 15, 'add_amount': 10, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 20, 'paid': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to round results +
+-- Round 2 start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- hole card --
+  - ['D4', 'D2']
+-- players information --
+  - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 115
+  - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 70
+======================================================================
+Enter some key to continue ...Deepseek response to round start +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to street start +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 120]
+-- hole card --
+  - ['D4', 'D2']
+-- round state --
+  - dealer btn : deepseek_player
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 115 <= SB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 70 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 10
+-- round state --
+  - dealer btn : deepseek_player
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 110 <= SB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 70 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+Deepseek response r 25
+bebra)
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared raise: 25
+-- round state --
+  - dealer btn : deepseek_player
+  - street : preflop
+  - community card : []
+  - pot : main = 35, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 110 <= SB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 55 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 25
+  - raise: [40, 120]
+-- hole card --
+  - ['D4', 'D2']
+-- round state --
+  - dealer btn : deepseek_player
+  - street : preflop
+  - community card : []
+  - pot : main = 35, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 110 <= SB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 55 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 25
+-- round state --
+  - dealer btn : deepseek_player
+  - street : preflop
+  - community card : []
+  - pot : main = 50, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= SB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 55 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 25, 'paid': 15, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - flop
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 95]
+-- hole card --
+  - ['D4', 'D2']
+-- round state --
+  - dealer btn : deepseek_player
+  - street : flop
+  - community card : ['SK', 'H8', 'H7']
+  - pot : main = 50, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= SB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 55 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 25, 'paid': 15, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> r
+valid raise range = [10, 95]10
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared raise: 10
+-- round state --
+  - dealer btn : deepseek_player
+  - street : flop
+  - community card : ['SK', 'H8', 'H7']
+  - pot : main = 60, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 85 <= SB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 55 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 25, 'paid': 15, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'RAISE', 'amount': 10, 'paid': 10, 'add_amount': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+Deepseek response f
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared fold: 0
+-- round state --
+  - dealer btn : deepseek_player
+  - street : flop
+  - community card : ['SK', 'H8', 'H7']
+  - pot : main = 60, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 85 <= SB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : folded, stack : 55 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 25, 'paid': 15, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'RAISE', 'amount': 10, 'paid': 10, 'add_amount': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'FOLD', 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to round update +
+-- Round result (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- winners --
+  - human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 145
+-- round state --
+  - dealer btn : deepseek_player
+  - street : showdown
+  - community card : ['SK', 'H8', 'H7', 'C4', 'C6']
+  - pot : main = 60, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 145 <= SB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : folded, stack : 55 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 25, 'paid': 15, 'add_amount': 15, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 25, 'paid': 15, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'RAISE', 'amount': 10, 'paid': 10, 'add_amount': 10, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'FOLD', 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round results +
+-- Round 3 start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- hole card --
+  - ['C4', 'H3']
+-- players information --
+  - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 135
+  - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 50
+======================================================================
+Enter some key to continue ...
+Deepseek response to round start +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+Deepseek response r 50
+bebra)
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared raise: 50
+-- round state --
+  - dealer btn : human_player
+  - street : preflop
+  - community card : []
+  - pot : main = 60, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 135 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...cDeepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 50
+  - raise: [90, 145]
+-- hole card --
+  - ['C4', 'H3']
+-- round state --
+  - dealer btn : human_player
+  - street : preflop
+  - community card : []
+  - pot : main = 60, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 135 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 50
+-- round state --
+  - dealer btn : human_player
+  - street : preflop
+  - community card : []
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to round update +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - flop
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+Deepseek response c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : flop
+  - community card : ['S2', 'D5', 'S9']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 95]
+-- hole card --
+  - ['C4', 'H3']
+-- round state --
+  - dealer btn : human_player
+  - street : flop
+  - community card : ['S2', 'D5', 'S9']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : flop
+  - community card : ['S2', 'D5', 'S9']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - turn
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to street start +
+Deepseek response c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : turn
+  - community card : ['S2', 'D5', 'S9', 'C5']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 95]
+-- hole card --
+  - ['C4', 'H3']
+-- round state --
+  - dealer btn : human_player
+  - street : turn
+  - community card : ['S2', 'D5', 'S9', 'C5']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : turn
+  - community card : ['S2', 'D5', 'S9', 'C5']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- New street start (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- street --
+  - river
+======================================================================
+Enter some key to continue ...
+Deepseek response to street start +
+Deepseek response c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - deepseek_player (jjhysdtktmufjtwdzmlurd) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : river
+  - community card : ['S2', 'D5', 'S9', 'C5', 'D4']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- Declare your action (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 95]
+-- hole card --
+  - ['C4', 'H3']
+-- round state --
+  - dealer btn : human_player
+  - street : river
+  - community card : ['S2', 'D5', 'S9', 'C5', 'D4']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> c
+-- Game update (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- new action --
+  - human_player (ekeywanuwdjvglxjunoais) declared call: 0
+-- round state --
+  - dealer btn : human_player
+  - street : river
+  - community card : ['S2', 'D5', 'S9', 'C5', 'D4']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 95 <= BB, CURRENT
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+Deepseek response to round update +
+-- Round result (UUID = ekeywanuwdjvglxjunoais) --
+======================================================================
+-- winners --
+  - human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 195
+-- hand info --
+  - human_player (ekeywanuwdjvglxjunoais)
+    - hand => TWOPAIR (high=5, low=4)
+    - hole => [4, 3]
+  - deepseek_player (jjhysdtktmufjtwdzmlurd)
+    - hand => ONEPAIR (high=5, low=0)
+    - hole => [13, 10]
+-- round state --
+  - dealer btn : human_player
+  - street : showdown
+  - community card : ['S2', 'D5', 'S9', 'C5', 'D4']
+  - pot : main = 100, side = []
+  - players information
+    - 0 : human_player (ekeywanuwdjvglxjunoais) => state : participating, stack : 195 <= BB
+    - 1 : deepseek_player (jjhysdtktmufjtwdzmlurd) => state : participating, stack : 5 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+      - {'action': 'RAISE', 'amount': 50, 'paid': 45, 'add_amount': 40, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 50, 'paid': 40, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+    - river
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'deepseek_player (uuid=jjhysdtktmufjtwdzmlurd)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'human_player (uuid=ekeywanuwdjvglxjunoais)'}
+======================================================================
+Enter some key to continue ...
+
+Deepseek response to round results +
+
+Process finished with exit code 0
