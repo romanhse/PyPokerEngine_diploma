@@ -299,6 +299,7 @@ return '+' if you understand
           retry = True
       if retry:
           print('Retry getting action from deepseek')
+          promt = "YOU RETURNED INCORRECT ACTION!!! TRY AGAIN!" + promt
           response = self.chat.get_response(promt)
           return self.__receive_action_from_deepseek(valid_actions, response, promt)
 
