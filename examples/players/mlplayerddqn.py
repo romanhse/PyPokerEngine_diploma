@@ -15,22 +15,6 @@ ACTION_IDX = {a: i for i, a in enumerate(ACTIONS)}
 
 
 class DuelingQNetwork(nn.Module):
-    # def __init__(self, input_dim, output_dim):
-    #     super(DuelingQNetwork, self).__init__()
-    #     self.feature = nn.Sequential(
-    #         nn.Linear(input_dim, 128),
-    #         nn.ReLU()
-    #     )
-    #     self.value_stream = nn.Sequential(
-    #         nn.Linear(128, 128),
-    #         nn.ReLU(),
-    #         nn.Linear(128, 1)
-    #     )
-    #     self.advantage_stream = nn.Sequential(
-    #         nn.Linear(128, 128),
-    #         nn.ReLU(),
-    #         nn.Linear(128, output_dim)
-    #     )
 
     def __init__(self, input_dim, output_dim):
         super(DuelingQNetwork, self).__init__()
@@ -60,7 +44,7 @@ class DuelingQNetwork(nn.Module):
 
 
 class MLPlayerDDQN(BasePokerPlayer):
-    def __init__(self, model_path, initial_stack, state_dim=9, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
+    def __init__(self, model_path, initial_stack, state_dim=8, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
                  epsilon=1.0, epsilon_min=0.15, epsilon_decay=0.999, tau=0.01, alpha=0.6, beta=0.4):
         self.state_dim = state_dim
         self.action_dim = len(ACTIONS)
@@ -103,35 +87,66 @@ class MLPlayerDDQN(BasePokerPlayer):
         state = self.encode_state(hole_card, round_state)
         self.prev_state = state
         self.prev_stack = self.get_stack(round_state)
-        log_bluff = False
+        self.hole_card = hole_card
+
+        # Map valid actions to indices
+        valid_idxs = [ACTION_IDX[a['action']] for a in valid_actions]
 
         if random.random() < self.epsilon:
-            action_idx = random.choice(range(len(valid_actions)))
+            action_idx = random.choice(valid_idxs)
         else:
             with torch.no_grad():
                 state_tensor = torch.FloatTensor(state).unsqueeze(0).to(self.device)
-                q_values = self.policy_net(state_tensor)
-                action_idx = torch.argmax(q_values).item()
-            log_bluff = True
+                q_values = self.policy_net(state_tensor)[0]
+                masked_q = torch.full_like(q_values, -1e9)
+                for idx in valid_idxs:
+                    masked_q[idx] = q_values[idx]
+                action_idx = torch.argmax(masked_q).item()
 
         self.prev_action = action_idx
+        for a in valid_actions:
+            if ACTION_IDX[a['action']] == action_idx:
+                action = a['action']
+                amount = a.get('amount', 0)
+                if action == 'raise':
+                    amount = a['amount']['min']
+                return action, amount
+        # fallback
+        return valid_actions[0]['action'], valid_actions[0].get('amount', 0)
 
-        action = valid_actions[action_idx]['action']
-        amount = valid_actions[action_idx].get('amount', 0)
-        if action == 'raise':
-            amount = valid_actions[action_idx]['amount']['min']
-        # if log_bluff and amount > 0:
-        #     strength = state[0]
-        #     with open('log_bluff.txt', 'a') as f:
-        #         f.write(f'{strength}, {action}, \n')
-
-        return action, amount
+    # def declare_action(self, valid_actions, hole_card, round_state):
+    #     state = self.encode_state(hole_card, round_state)
+    #     self.prev_state = state
+    #     self.prev_stack = self.get_stack(round_state)
+    #     log_bluff = False
+    #
+    #     if random.random() < self.epsilon:
+    #         action_idx = random.choice(range(len(valid_actions)))
+    #     else:
+    #         with torch.no_grad():
+    #             state_tensor = torch.FloatTensor(state).unsqueeze(0).to(self.device)
+    #             q_values = self.policy_net(state_tensor)
+    #             action_idx = torch.argmax(q_values).item()
+    #         log_bluff = True
+    #
+    #     self.prev_action = action_idx
+    #
+    #     action = valid_actions[action_idx]['action']
+    #     amount = valid_actions[action_idx].get('amount', 0)
+    #     if action == 'raise':
+    #         amount = valid_actions[action_idx]['amount']['min']
+    #     # if log_bluff and amount > 0:
+    #     #     strength = state[0]
+    #     #     with open('log_bluff.txt', 'a') as f:
+    #     #         f.write(f'{strength}, {action}, \n')
+    #
+    #     return action, amount
 
     def receive_round_result_message(self, winners, hand_info, round_state):
         if self.prev_state is None or self.prev_action is None:
             return
 
-        reward = self.get_stack(round_state) - (self.prev_stack or 0)
+        reward = (self.get_stack(round_state) - (self.prev_stack or 0))/self.initial_stack
         self.rewards_log.append(reward)
         next_state = self.encode_state(self.hole_card, round_state)
         done = True
@@ -200,11 +215,12 @@ class MLPlayerDDQN(BasePokerPlayer):
         else:
             win_prop = 0.5
         if sum(self.opp_moves) == 0:
-            moves = [0.33, 0.33, 0.33]
+            moves = [0.33, 0.33]
         else:
             moves = []
             for m in self.opp_moves:
                 moves.append(m/sum(self.opp_moves))
+            moves.pop(2)
         return [strength, pot, num_community, pos, stack,win_prop] + moves
 
     def evaluate_hand_strength(self, hole_card, community_cards):

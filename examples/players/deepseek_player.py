@@ -78,7 +78,7 @@ class DeepSeekChat:
                 {"role": "assistant", "content": ai_response}
             ])
 
-            with open(f'{self.current_session}.txt', 'a') as file:
+            with open(f'logs\{self.current_session}.txt', 'a') as file:
                 file.write(ai_response + '\n')
                 # file.write(reasoning_content + '\n')
 
@@ -181,10 +181,10 @@ Return your action
     action, amount = self.__receive_action_from_deepseek(valid_actions, response, promt)
     if have_strength and amount > 0:
         if self.new_version:
-            with open('deepseek_new_bluff.txt', 'a') as f:
+            with open('games_data\deepseek_new_bluff.txt', 'a') as f:
                 f.write(f'{hand_strength}, {action}, {amount}, \n')
         else:
-            with open('deepseek_old_bluff.txt', 'a') as f:
+            with open('games_data\deepseek_old_bluff.txt', 'a') as f:
                 f.write(f'{hand_strength}, {action}, {amount}, \n')
 
     return action, amount

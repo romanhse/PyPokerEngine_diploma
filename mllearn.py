@@ -77,18 +77,19 @@ from pypokerengine.api.game import setup_config, start_poker
 from examples.players.fish_player import FishPlayer
 from examples.players.random_player import RandomPlayer
 from examples.players.honest_player import HonestPlayer
+from examples.players.all_in_player import AllInPlayer
 
 import random
-def train_ddqn_selfplay(n_games=1000, rounds_per_game=100):
+def train_ddqn_selfplay(n_games=2000, rounds_per_game=100):
     results = []
     for i in range(n_games):
         print(f"🎮 Game {i+1}/{n_games}")
 
         # p1 = MLPlayerDDQN('dueling_ddqn_model_5.pt')
-        p1 = MLPlayerDDQN('dueling_ddqn_model_7.pt', 1000)
+        p1 = MLPlayerDDQN('dueling_ddqn_model_8.pt', 1000)
         # p2 = MLPlayerDDQN('dueling_ddqn_model_6000.pt')
         # p2 = HonestPlayer()
-        opponent_type = random.choice([FishPlayer(), MLPlayerDDQN('dueling_ddqn_model_7.pt', 1000), RandomPlayer()])
+        opponent_type = random.choice([FishPlayer(), MLPlayerDDQN('dueling_ddqn_model_8.pt', 1000), AllInPlayer(), RandomPlayer()])
         # p2 = FishPlayer()
         # p2 = RandomPlayer()
         p2 = opponent_type
@@ -117,32 +118,3 @@ def train_ddqn_selfplay(n_games=1000, rounds_per_game=100):
     print(results)
     print(sum(results)/len(results))
 train_ddqn_selfplay()
-# from pypokerengine.api.game import setup_config, start_poker
-# from examples.players.fish_player import FishPlayer
-# from examples.players.console_player import ConsolePlayer
-# from examples.players.deepseek_player import DeepseekPlayer
-# from examples.players.mlplayerddqn import MLPlayerDDQN
-# from examples.players.honest_player import HonestPlayer
-
-# config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
-# config.register_player(name="ddqn_player", algorithm=MLPlayerDDQN('dueling_ddqn_model_2000.pt'))
-# config.register_player(name="fair", algorithm=HonestPlayer())
-# results = []
-# for i in range(1000):
-#     print(f'Start {i}')
-#     try:
-#         game_result = start_poker(config, verbose=1)
-#         for player in game_result["players"]:
-#             if player["name"] == "ddqn_player":
-#                 results.append(player["stack"])
-#     except Exception as e:
-#         print(f'Simulation {i} failed due to {e}')
-# plt.plot(results)
-# plt.title("Trainer's Stack Over Games")
-# plt.xlabel("Game")
-# plt.ylabel("Stack")
-# plt.grid()
-# plt.show()
-# print(results)
-# print(sum(results)/len(results))
-

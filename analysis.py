@@ -18,7 +18,7 @@ from scipy.stats import ttest_rel, t
 mode = input('Analyze Deepseek vs Honest (type 0), DDQN vs Deepseek (type 1) or Deepseek_New vs Deepseek_old (type 2)')
 if mode == '1':
     filenames = ['games_data\ddqn.txt', 'games_data\deepseek_vs_ddqn.txt']
-    names = ['DDQN', 'Deepseek']
+    names = ['DDQN', 'DeepseekDDQN']
     file_pic = 'graphs\ddqn_vs_deepseek'
 elif mode == '2':
     filenames = ['games_data\deepseek_new.txt', 'games_data\deepseek_old.txt']
