@@ -10,8 +10,8 @@ def train_ddqn_selfplay(n_games=3000, rounds_per_game=100):
     results = []
     for i in range(n_games):
         print(f"🎮 Game {i+1}/{n_games}")
-        p1 = MLPlayerDDQN('dueling_ddqn_model_7.pt', 1000)
-        opponent_type = random.choice([FishPlayer(), MLPlayerDDQN('dueling_ddqn_model_7.pt', 1000),  RandomPlayer()])
+        p1 = MLPlayerDDQN('dueling_ddqn_model_8.pt', 1000)
+        opponent_type = random.choice([FishPlayer(), MLPlayerDDQN('dueling_ddqn_model_8.pt', 1000),  RandomPlayer()])
         p2 = opponent_type
         order = random.choice([True, False])
         if order:

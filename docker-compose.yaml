@@ -1,0 +1,7 @@
+services:
+  pypokerengine:
+    build: .
+    container_name: pypokerengine
+    volumes:
+      - .:/app  
+    command: python3 example_game.py

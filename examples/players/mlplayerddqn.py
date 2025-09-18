@@ -44,7 +44,7 @@ class DuelingQNetwork(nn.Module):
 
 
 class MLPlayerDDQN(BasePokerPlayer):
-    def __init__(self, model_path, initial_stack, state_dim=8, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
+    def __init__(self, model_path, initial_stack, state_dim=9, buffer_size=50000, batch_size=64, gamma=0.99, lr=1e-3,
                  epsilon=1.0, epsilon_min=0.15, epsilon_decay=0.999, tau=0.01, alpha=0.6, beta=0.4):
         self.state_dim = state_dim
         self.action_dim = len(ACTIONS)
@@ -215,12 +215,12 @@ class MLPlayerDDQN(BasePokerPlayer):
         else:
             win_prop = 0.5
         if sum(self.opp_moves) == 0:
-            moves = [0.33, 0.33]
+            moves = [0.33, 0.33, 0.33]
         else:
             moves = []
             for m in self.opp_moves:
                 moves.append(m/sum(self.opp_moves))
-            moves.pop(2)
+            # moves.pop(2)
         return [strength, pot, num_community, pos, stack,win_prop] + moves
 
     def evaluate_hand_strength(self, hole_card, community_cards):

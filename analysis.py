@@ -5,29 +5,20 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import ttest_rel, t
 
-#
-# balances_p1 = \
-#     [850, 1270, 1410, 600, 700, 1200, 1100, 760, 1060, 880, 480, 930, 1040, 790, 1000, 1040, 680, 2000, 1220, 770, 900,
-#      1250, 540, 800, 660, 490, 970, 670, 790, 1270, 680, 1190, 1130, 1220, 1140, 960, 930, 770, 950, 1180, 500, 1770, 0,
-#      2000, 2000, 1670, 1090, 910, 830, 1110, 1130, 1270, 1190, 0, 630, 1160, 1400, 0, 1170, 820, 1380, 1060, 1050, 1300,
-#      1160, 1010, 940, 860, 1200, 1290, 1480, 1470, 830, 510, 1130, 1330, 940, 970, 960, 540, 1480, 760, 1270, 820, 1280,
-#      1690, 0, 1100, 1300, 280, 1600, 1640, 810, 1190, 1330, 1790, 660, 1180, 1320, 1460]
-# balances_p2 = []
-# for i in balances_p1:
-#     balances_p2.append(2000 - i)
+
 mode = input('Analyze Deepseek vs Honest (type 0), DDQN vs Deepseek (type 1) or Deepseek_New vs Deepseek_old (type 2)')
 if mode == '1':
-    filenames = ['games_data\ddqn.txt', 'games_data\deepseek_vs_ddqn.txt']
+    filenames = ['games_data/ddqn.txt', 'games_data/deepseek_vs_ddqn.txt']
     names = ['DDQN', 'DeepseekDDQN']
-    file_pic = 'graphs\ddqn_vs_deepseek'
+    file_pic = 'graphs/ddqn_vs_deepseek'
 elif mode == '2':
-    filenames = ['games_data\deepseek_new.txt', 'games_data\deepseek_old.txt']
+    filenames = ['games_data/deepseek_new.txt', 'games_data/deepseek_old.txt']
     names = ['Deepseek_New',  'Deepseek_Old']
-    file_pic = 'graphs\deepseek_old_vs_deepseek_new'
+    file_pic = 'graphs/deepseek_old_vs_deepseek_new'
 else:
-    filenames = ['games_data\deepseek.txt', 'games_data\\fair.txt']
+    filenames = ['games_data/deepseek.txt', 'games_data//fair.txt']
     names = ['Deepseek', 'Honest']
-    file_pic = 'graphs\deepseek_vs_honest'
+    file_pic = 'graphs/deepseek_vs_honest'
 
 balances_p1 = []
 balances_p2 = []
