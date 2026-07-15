@@ -541,6 +541,20 @@ uv run poker-benchmark train-dqn \
 random initialization требует одинакового hand/update budget и нескольких seeds, а само
 наличие BC weights не доказывает улучшение DQN.
 
+Для чистой random-init control ветки с **тем же самым encoder**, но без BC weights, используй
+`--encoder-checkpoint` вместо `--initial-checkpoint`. Эти флаги взаимоисключающие:
+
+```bash
+uv run poker-benchmark train-dqn \
+  --encoder-checkpoint artifacts/checkpoints/bc_tag_v1.npz \
+  --policy-name dqn_random_same_encoder_v1 \
+  --output artifacts/training/dqn-random-same-encoder-v1 \
+  --device auto
+```
+
+Так action features, equity sampling seed и normalization совпадают между ablation-ветками;
+различается только инициализация weights.
+
 Output directory содержит `trainer.pt`, `policy.npz` и `training.json` с config, device,
 training/validation summaries, per-opponent validation и обоими SHA-256. Команда не
 перезаписывает непустой каталог. Validation использует отдельные decks и greedy policy, но

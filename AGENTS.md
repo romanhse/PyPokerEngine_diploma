@@ -189,7 +189,8 @@ raw artifacts и ссылаться на manifest/checksums.
 - BC→DQN warm-start через safe `.npz` является отдельным training condition. Проверяй
   совпадение encoder schema, hidden size, starting stack и big blind; сохраняй initial
   checkpoint SHA-256 и сравнивай с random initialization при одинаковом budget и нескольких
-  seeds.
+  seeds. Для random-init ablation с тем же frozen encoder используй `--encoder-checkpoint`,
+  а для warm-start weights — взаимоисключающий `--initial-checkpoint`.
 - Checkpoint содержит config hash, code/Git SHA, weights, optimizer state и RNG states.
 - Train/eval action abstraction и information-state schema должны совпадать и иметь версию.
 - Не выбирай «лучший seed» для итогового результата.

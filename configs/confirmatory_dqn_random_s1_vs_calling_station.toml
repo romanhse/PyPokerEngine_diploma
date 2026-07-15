@@ -1,0 +1,27 @@
+# Frozen after exploratory model selection. Do not tune checkpoint, rules, horizon or seeds.
+# Power basis: pilot SD=2313.38 bb/100, target effect=400, alpha=.05, power=.90 -> 287;
+# rounded upward to 300 duplicate pairs. The confirmatory practical margin remains +5 bb/100.
+[experiment]
+name = "confirmatory-dqn-random-s1-v1-vs-calling-station"
+mode = "confirmatory"
+master_seed = 210720260999983
+pair_count = 300
+practical_margin_bb100 = 5.0
+bootstrap_resamples = 50000
+bootstrap_seed = 210720260888979
+policy_schedule_seed = 210720260777973
+
+[game]
+starting_stack = 200
+small_blind = 1
+big_blind = 2
+ante = 0
+
+[hero]
+policy = "dqn_random_same_encoder_s1_v1"
+checkpoint = "../artifacts/training/dqn-random-same-encoder-s1/policy.npz"
+seed = 101
+
+[opponent]
+policy = "calling_station_v1"
+seed = 202

@@ -142,6 +142,11 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         help="optional safe .npz behavior-cloning/blueprint initialization",
     )
+    dqn.add_argument(
+        "--encoder-checkpoint",
+        type=Path,
+        help="reuse only a safe .npz encoder for a controlled random-init ablation",
+    )
     dqn.add_argument("--master-seed", type=int, default=20_260_715)
     dqn.add_argument("--hidden-size", type=int, default=128)
     dqn.add_argument("--batch-size", type=int, default=128)
@@ -357,6 +362,8 @@ def main() -> None:
             raise ValueError("training-hands and validation-hands must be positive")
         if len(args.opponents) != len(set(args.opponents)):
             raise ValueError("opponent policy names must be unique")
+        if args.initial_checkpoint is not None and args.encoder_checkpoint is not None:
+            raise ValueError("initial-checkpoint and encoder-checkpoint are mutually exclusive")
         if args.output.exists() and any(args.output.iterdir()):
             raise FileExistsError(f"refusing to overwrite non-empty directory: {args.output}")
         args.output.mkdir(parents=True, exist_ok=True)
@@ -371,9 +378,16 @@ def main() -> None:
             if args.initial_checkpoint is not None
             else None
         )
+        encoder_policy = (
+            NumpyMLPPolicy.from_checkpoint(args.encoder_checkpoint)
+            if args.encoder_checkpoint is not None
+            else None
+        )
         encoder = (
             initial_policy.encoder
             if initial_policy is not None
+            else encoder_policy.encoder
+            if encoder_policy is not None
             else ObservationEncoder(
                 EncoderConfig(
                     starting_stack=args.starting_stack,
@@ -460,6 +474,12 @@ def main() -> None:
             ),
             "initial_checkpoint_sha256": (
                 initial_policy.checkpoint_sha256 if initial_policy is not None else None
+            ),
+            "encoder_checkpoint": (
+                str(args.encoder_checkpoint) if args.encoder_checkpoint is not None else None
+            ),
+            "encoder_checkpoint_sha256": (
+                encoder_policy.checkpoint_sha256 if encoder_policy is not None else None
             ),
             "replay_size": len(trainer.replay),
             "environment_decisions": trainer.environment_decisions,

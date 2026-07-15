@@ -98,8 +98,10 @@ uv run poker-benchmark league --suite quick \
 ```
 
 `--initial-checkpoint` — опциональный BC→DQN warm-start; без него DQN начинает со seeded
-Xavier weights. Оба варианта являются exploratory training conditions и требуют отдельного
-сравнения на нескольких seeds.
+Xavier weights. Для честного random-init control с тем же encoder используй
+`--encoder-checkpoint` на тот же `.npz`; он переносит feature schema и equity seed, но не
+weights. Варианты являются exploratory training conditions и требуют сравнения на нескольких
+seeds.
 
 ## Быстрый старт
 

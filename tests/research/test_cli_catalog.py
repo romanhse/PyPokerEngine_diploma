@@ -4,7 +4,13 @@ import json
 import sys
 
 from poker_research.cli import build_parser, main
-from poker_research.neural import NumpyMLPPolicy
+from poker_research.neural import (
+    EncoderConfig,
+    MLPWeights,
+    NumpyMLPPolicy,
+    ObservationEncoder,
+    save_checkpoint,
+)
 
 
 def test_catalog_command_parses_named_suite() -> None:
@@ -140,12 +146,14 @@ def test_train_dqn_parser_has_m3_friendly_but_bounded_defaults(tmp_path) -> None
     assert args.replay_capacity == 100_000
     assert args.device == "auto"
     assert args.equity_samples == 32
+    assert args.initial_checkpoint is None
+    assert args.encoder_checkpoint is None
 
 
-def test_tiny_train_dqn_cli_exports_resume_and_inference_artifacts(
-    tmp_path, monkeypatch, capsys
+def test_train_dqn_rejects_two_initialization_sources(
+    tmp_path, monkeypatch
 ) -> None:
-    output = tmp_path / "dqn"
+    output = tmp_path / "not-created"
     monkeypatch.setattr(
         sys,
         "argv",
@@ -154,6 +162,44 @@ def test_tiny_train_dqn_cli_exports_resume_and_inference_artifacts(
             "train-dqn",
             "--output",
             str(output),
+            "--initial-checkpoint",
+            str(tmp_path / "weights.npz"),
+            "--encoder-checkpoint",
+            str(tmp_path / "encoder.npz"),
+        ],
+    )
+
+    try:
+        main()
+    except ValueError as error:
+        assert "mutually exclusive" in str(error)
+    else:
+        raise AssertionError("expected mutually exclusive initialization sources to fail")
+    assert not output.exists()
+
+
+def test_tiny_train_dqn_cli_exports_resume_and_inference_artifacts(
+    tmp_path, monkeypatch, capsys
+) -> None:
+    output = tmp_path / "dqn"
+    encoder = ObservationEncoder(EncoderConfig(equity_samples=0))
+    encoder_checkpoint = tmp_path / "encoder.npz"
+    save_checkpoint(
+        encoder_checkpoint,
+        MLPWeights.random(encoder.feature_count, hidden_size=8, seed=11),
+        encoder,
+        policy_name="encoder_source_v1",
+    )
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "poker-benchmark",
+            "train-dqn",
+            "--output",
+            str(output),
+            "--encoder-checkpoint",
+            str(encoder_checkpoint),
             "--opponents",
             "calling_station_v1",
             "--training-hands",
@@ -190,6 +236,11 @@ def test_tiny_train_dqn_cli_exports_resume_and_inference_artifacts(
     assert report["training_summary"]["hand_count"] == 2
     assert report["validation_summary"]["hand_count"] == 2
     assert report["optimization_steps"] > 0
+    assert report["initial_checkpoint"] is None
+    assert report["encoder_checkpoint"] == str(encoder_checkpoint)
+    assert report["encoder_checkpoint_sha256"] == NumpyMLPPolicy.from_checkpoint(
+        encoder_checkpoint
+    ).checkpoint_sha256
     assert (output / "trainer.pt").is_file()
     assert NumpyMLPPolicy.from_checkpoint(output / "policy.npz").name == "double_dqn_v1"
     assert "trained 2/2 hands" in capsys.readouterr().out
