@@ -1,0 +1,258 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "От бакалаврского прототипа к воспроизводимой покерной лаборатории",
+    "description": "Технический аудит, новый исследовательский контур и первый подтверждающий эксперимент.",
+    "generatedAt": "2026-07-15T12:00:00+03:00",
+    "cards": [
+      {
+        "id": "mean_winrate",
+        "description": "Средний парный выигрыш equity_value_v1 против calling_station_v1 в post-freeze replication на 500 новых duplicate-парах.",
+        "dataset": "confirmatory_summary",
+        "sourceId": "confirmatory_pairs",
+        "metrics": [{"label": "Средний выигрыш", "field": "mean_bb100", "format": "number", "unit": " bb/100"}]
+      },
+      {
+        "id": "lower_bound",
+        "description": "Односторонняя нижняя 95%-я t-граница; primary gate требует значения выше +5 bb/100.",
+        "dataset": "confirmatory_summary",
+        "sourceId": "confirmatory_pairs",
+        "metrics": [{"label": "Нижняя 95%-я граница", "field": "lower_bb100", "format": "number", "unit": " bb/100"}]
+      },
+      {
+        "id": "pair_count",
+        "description": "Независимая единица анализа — две руки с одной колодой и перестановкой мест.",
+        "dataset": "confirmatory_summary",
+        "sourceId": "confirmatory_pairs",
+        "metrics": [{"label": "Duplicate-пары", "field": "pair_count", "format": "number"}]
+      },
+      {
+        "id": "cfr_exploitability",
+        "description": "Exact exploitability OpenSpiel CFR+ после 10 000 итераций в Kuhn Poker.",
+        "dataset": "theory_summary",
+        "sourceId": "cfr_curve",
+        "metrics": [{"label": "Kuhn exploitability", "field": "exploitability", "format": "number"}]
+      }
+    ],
+    "charts": [
+      {
+        "id": "outcome_signs",
+        "title": "Знак результата duplicate-пары",
+        "subtitle": "500 fixed-horizon пар; показано число пар, а не величина выигрыша.",
+        "type": "bar",
+        "dataset": "outcome_distribution",
+        "sourceId": "confirmatory_outcomes",
+        "encodings": {
+          "x": {"field": "outcome", "type": "nominal", "label": "Результат hero"},
+          "y": {"field": "pair_count", "type": "quantitative", "label": "Число duplicate-пар", "format": "number"},
+          "tooltip": [{"field": "share", "type": "quantitative", "label": "Доля пар", "format": "percent"}]
+        },
+        "valueFormat": "number",
+        "layout": "full"
+      }
+    ],
+    "tables": [
+      {
+        "id": "evidence_table",
+        "title": "Что уже доказано, а что ещё нет",
+        "subtitle": "Confirmatory вывод отделён от диагностических и теоретических sanity checks.",
+        "dataset": "evidence",
+        "sourceId": "report_evidence",
+        "defaultSort": {"field": "evidence", "direction": "asc"},
+        "layout": "full",
+        "columns": [
+          {"field": "evidence", "label": "Контур", "type": "text"},
+          {"field": "result", "label": "Результат", "type": "text"},
+          {"field": "status", "label": "Статус", "type": "text"},
+          {"field": "interpretation", "label": "Допустимый вывод", "type": "text"}
+        ]
+      },
+      {
+        "id": "quality_table",
+        "title": "Data-quality gate пройден без исключений",
+        "subtitle": "Проверки выполнены на финальных raw artifacts и manifest.",
+        "dataset": "quality_checks",
+        "sourceId": "quality_checks_source",
+        "defaultSort": {"field": "check", "direction": "asc"},
+        "layout": "full",
+        "columns": [
+          {"field": "check", "label": "Проверка", "type": "text"},
+          {"field": "observed", "label": "Наблюдение", "type": "text"},
+          {"field": "status", "label": "Статус", "type": "text"}
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "confirmatory_pairs",
+        "label": "Финальные duplicate-пары и summary",
+        "path": "artifacts/confirmatory_equity_v1_source_frozen/pairs.csv",
+        "query": {
+          "engine": "duckdb",
+          "description": "Pair-level mean and one-sided 95% lower confidence bound over the complete confirmatory CSV.",
+          "sql": "WITH p AS (SELECT hero_bb100 FROM read_csv_auto('artifacts/confirmatory_equity_v1_source_frozen/pairs.csv')) SELECT count(*) AS pair_count, avg(hero_bb100) AS mean_bb100, avg(hero_bb100) - 1.6479129840597124 * stddev_samp(hero_bb100) / sqrt(count(*)) AS lower_bb100 FROM p",
+          "filters": ["all 500 rows", "no exclusions", "practical margin = 5 bb/100"],
+          "metric_definitions": {"hero_bb100": "50 * (hero payoff in leg A + hero payoff in leg B) / big blind"}
+        }
+      },
+      {
+        "id": "confirmatory_outcomes",
+        "label": "Знак результата финальных duplicate-пар",
+        "path": "artifacts/confirmatory_equity_v1_source_frozen/pairs.csv",
+        "query": {
+          "engine": "duckdb",
+          "description": "Counts positive, zero, and negative pair-level outcomes without dropping rows.",
+          "sql": "WITH p AS (SELECT CASE WHEN hero_bb100 > 0 THEN 'Положительный' WHEN hero_bb100 < 0 THEN 'Отрицательный' ELSE 'Нулевой' END AS outcome FROM read_csv_auto('artifacts/confirmatory_equity_v1_source_frozen/pairs.csv')) SELECT outcome, count(*) AS pair_count, count(*) / 500.0 AS share FROM p GROUP BY outcome",
+          "filters": ["all 500 rows", "no exclusions"]
+        }
+      },
+      {
+        "id": "cfr_curve",
+        "label": "OpenSpiel CFR+ convergence curve",
+        "path": "artifacts/cfr_plus_kuhn.csv",
+        "query": {
+          "engine": "duckdb",
+          "description": "Selects the final exact-exploitability checkpoint from the OpenSpiel CFR+ curve.",
+          "sql": "SELECT iteration, exploitability, elapsed_seconds FROM read_csv_auto('artifacts/cfr_plus_kuhn.csv') ORDER BY iteration DESC LIMIT 1",
+          "filters": ["game = kuhn_poker", "algorithm = CFR+", "iteration = 10000"]
+        }
+      },
+      {
+        "id": "report_evidence",
+        "label": "Аудит репозитория и экспериментальные manifests",
+        "path": "docs/RESEARCH_ROADMAP.md",
+        "query": {"engine": "artifact-snapshot", "description": "Reviewed claim-status matrix assembled from the repository audit and immutable run manifests.", "sql": "SELECT * FROM snapshot.evidence ORDER BY \"order\""}
+      },
+      {
+        "id": "quality_checks_source",
+        "label": "Финальный manifest и QA-проверки",
+        "path": "artifacts/confirmatory_equity_v1_source_frozen/manifest.json",
+        "query": {"engine": "artifact-snapshot", "description": "Reviewed completeness, pairing, accounting, failure, and checksum checks.", "sql": "SELECT * FROM snapshot.quality_checks ORDER BY \"order\""}
+      }
+    ],
+    "blocks": [
+      {"id": "title", "type": "markdown", "body": "# От бакалаврского прототипа к воспроизводимой покерной лаборатории"},
+      {
+        "id": "executive_summary",
+        "type": "markdown",
+        "sourceId": "confirmatory_pairs",
+        "body": "## Executive Summary\n\nВ post-freeze replication новый замороженный агент **equity_value_v1** статистически и практически значимо обыграл заранее определённого **calling_station_v1**: **+873.5 bb/100** на 500 независимых duplicate-парах. Односторонняя нижняя 95%-я граница равна **+777.5 bb/100**, что на **772.5 bb/100** выше preregistered practical margin `+5 bb/100`; bootstrap 95% CI — `[761.1; 990.0]`.\n\nЭто первый валидный baseline и проверка стенда, но не заявление о GTO-силе: calling station — один намеренно слабый архетип, а equity policy — прозрачная эвристика, не итоговая нейросетевая модель."
+      },
+      {"id": "headline_metrics", "type": "metric-strip", "cardIds": ["mean_winrate", "lower_bound", "pair_count", "cfr_exploitability"]},
+      {"id": "outcome_chart", "type": "chart", "chartId": "outcome_signs", "layout": "full"},
+      {
+        "id": "system_assessment",
+        "type": "markdown",
+        "sourceId": "report_evidence",
+        "body": "## System Assessment: старые результаты нельзя защищать перед комиссией\n\nLegacy PyPokerEngine неверно назначает HU button/blinds и порядок postflop, теряет odd chip при ничьей и считает tie полной победой в Monte Carlo helper. Legacy DDQN сохраняет только последнее действие руки как terminal transition, дообучается во время evaluation и фактически умеет лишь min-raise. Замороженный старый checkpoint диагностически показал отрицательный результат против старого FishPlayer.\n\nПоэтому `pypokerengine/` сохранён как исторический слой; новые claims строятся только через `poker_research/`."
+      },
+      {
+        "id": "architecture",
+        "type": "markdown",
+        "body": "## Recommended Architecture: три независимых источника истины\n\n- **PokerKit 0.7.4**: правила HUNL, payouts и PHH replay.\n- **PHEvaluator 0.5.3.1**: быстрый hand rank и воспроизводимый equity sampling.\n- **OpenSpiel 1.6.15**: CFR, exact best response и exploitability в Kuhn/Leduc.\n- **SciPy/NumPy**: pair-level inference, CI, bootstrap и power.\n\nPolicy получает только типизированный `Observation` без hidden cards/deck и обязана вернуть legal action вместе с полным распределением вероятностей. Runner фиксирует config, seed, deck hash, решения, latency, PHH и SHA-256 артефактов."
+      },
+      {"id": "evidence", "type": "table", "tableId": "evidence_table", "layout": "full"},
+      {
+        "id": "evaluation",
+        "type": "markdown",
+        "sourceId": "confirmatory_pairs",
+        "body": "## Evaluation: фиксированный горизонт и парная единица анализа\n\nИгра: HUNL cash, 100 BB effective, blinds 1/2, без ante/rake, reset после каждой руки. В leg A hero сидит на seat 0, в leg B — на seat 1; порядок колоды одинаков. Одна duplicate-пара, а не отдельная рука или decision, является независимым наблюдением.\n\nИз 500 пар: 339 дали положительный результат, 129 — нулевой, 32 — отрицательный; медиана `+250 bb/100`. Ни одна строка не исключалась."
+      },
+      {"id": "quality", "type": "table", "tableId": "quality_table", "layout": "full"},
+      {
+        "id": "research_direction",
+        "type": "markdown",
+        "body": "## Следующий научный шаг: SD-CFR blueprint + безопасная эксплуатация\n\n1. Воспроизвести CFR/DCFR и exact exploitability в Kuhn/Leduc.\n2. Построить Deep CFR/SD-CFR blueprint с фиксированной HUNL action abstraction.\n3. Добавить opponent model и confidence-gated exploit policy.\n4. Проверять gain против held-out fish population и safety через exact BR в малых играх, затем LBR/RL-BR в HUNL.\n5. Только после этого подключить LLM как замороженного strict-JSON соперника и сравнить vanilla, structured, tools и blueprint-assisted ablations."
+      },
+      {
+        "id": "limitations",
+        "type": "markdown",
+        "body": "## Risks and Limitations\n\n- Результат переносится только на `calling_station_v1`; нужны loose-passive, over-folder, over-aggressor, random-valid и held-out parameter variants.\n- Большой winrate объясняется грубой систематической ошибкой соперника и reset-режимом; он не оценивает exploitability hero.\n- Equity оценивается против uniform range; future opponent range inference требует отдельных train/validation/test streams.\n- Exact exploitability полного HUNL практически недоступна; LBR/RL-BR дают лишь найденную нижнюю границу уязвимости.\n- Для обучаемой модели нужны минимум 5 независимых training seeds и общий hidden duplicate grid."
+      },
+      {
+        "id": "reproducibility",
+        "type": "markdown",
+        "sourceId": "report_evidence",
+        "body": "## Reproducibility Appendix\n\nСреда зафиксирована `uv.lock` и Python 3.12. Проверки: `ruff`, strict `mypy`, **309 pytest tests**. Post-freeze source-tree SHA-256: `6f29a98f1423724ca5cc0b2ba2954f857dfe601436560e4a8c2de1c97cb30ec0`. Финальный run хранит `preregistered_config.toml`, `pairs.csv`, `hands.csv`, `decisions.jsonl`, `hands.phhs`, `summary.json`, пустой `errors.jsonl` и immutable `manifest.json`; все hashes проверены повторно. Команды и правила следующего этапа находятся в `README.md`, `docs/RESEARCH_ROADMAP.md`, `docs/LITERATURE_REVIEW.md` и `AGENTS.md`."
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-07-15T12:00:00+03:00",
+    "status": "ready",
+    "datasets": {
+      "confirmatory_summary": [{"mean_bb100": 873.5, "lower_bb100": 777.5203, "pair_count": 500, "practical_margin_bb100": 5.0, "bootstrap_lower": 761.1, "bootstrap_upper": 990.0, "errors": 0}],
+      "outcome_distribution": [
+        {"outcome": "Положительный", "pair_count": 339, "share": 0.678, "total_pairs": 500},
+        {"outcome": "Нулевой", "pair_count": 129, "share": 0.258, "total_pairs": 500},
+        {"outcome": "Отрицательный", "pair_count": 32, "share": 0.064, "total_pairs": 500}
+      ],
+      "theory_summary": [{"iterations": 10000, "exploitability": 0.000009632756980737511, "elapsed_seconds": 4.7839}],
+      "evidence": [
+        {"order": 1, "evidence": "Legacy DDQN vs FishPlayer", "result": "-0.378 bb/100; CI пересекает 0", "status": "Diagnostic", "interpretation": "Старый checkpoint не доказал превосходство"},
+        {"order": 2, "evidence": "equity_value_v1 vs calling_station_v1", "result": "+873.5 bb/100; one-sided LCB +777.5", "status": "Post-freeze confirmatory", "interpretation": "Превосходит конкретный calling station и margin +5"},
+        {"order": 3, "evidence": "OpenSpiel CFR+ / Kuhn", "result": "exploitability 9.63e-6 @ 10k", "status": "Exact sanity check", "interpretation": "Game-theory measurement path работает на малой игре"},
+        {"order": 4, "evidence": "Full HUNL robustness", "result": "LBR/RL-BR и fish suite ещё не реализованы", "status": "Open", "interpretation": "Нельзя заявлять GTO/superhuman силу"}
+      ],
+      "quality_checks": [
+        {"order": 1, "check": "Duplicate coverage", "observed": "500 pairs / 1000 hands; 2 legs per pair", "status": "PASS"},
+        {"order": 2, "check": "Deck pairing", "observed": "Same deal_seed and deck_hash within every pair", "status": "PASS"},
+        {"order": 3, "check": "Seat balance", "observed": "Hero seat 0 in leg A; seat 1 in leg B", "status": "PASS"},
+        {"order": 4, "check": "Accounting", "observed": "Zero-sum and chip conservation in all hands", "status": "PASS"},
+        {"order": 5, "check": "Failures", "observed": "0 errors; 0 dropped rows", "status": "PASS"},
+        {"order": 6, "check": "Artifact integrity", "observed": "All seven artifact hashes and source-tree provenance validate", "status": "PASS"}
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "confirmatory_pairs",
+      "label": "Финальные duplicate-пары и summary",
+      "path": "artifacts/confirmatory_equity_v1_source_frozen/pairs.csv",
+      "query": {
+        "engine": "duckdb",
+        "description": "Pair-level mean and one-sided 95% lower confidence bound over the complete confirmatory CSV.",
+        "sql": "WITH p AS (SELECT hero_bb100 FROM read_csv_auto('artifacts/confirmatory_equity_v1_source_frozen/pairs.csv')) SELECT count(*) AS pair_count, avg(hero_bb100) AS mean_bb100, avg(hero_bb100) - 1.6479129840597124 * stddev_samp(hero_bb100) / sqrt(count(*)) AS lower_bb100 FROM p",
+        "filters": ["all 500 rows", "no exclusions", "practical margin = 5 bb/100"],
+        "metric_definitions": {"hero_bb100": "50 * (hero payoff in leg A + hero payoff in leg B) / big blind"}
+      }
+    },
+    {
+      "id": "confirmatory_outcomes",
+      "label": "Знак результата финальных duplicate-пар",
+      "path": "artifacts/confirmatory_equity_v1_source_frozen/pairs.csv",
+      "query": {
+        "engine": "duckdb",
+        "description": "Counts positive, zero, and negative pair-level outcomes without dropping rows.",
+        "sql": "WITH p AS (SELECT CASE WHEN hero_bb100 > 0 THEN 'Положительный' WHEN hero_bb100 < 0 THEN 'Отрицательный' ELSE 'Нулевой' END AS outcome FROM read_csv_auto('artifacts/confirmatory_equity_v1_source_frozen/pairs.csv')) SELECT outcome, count(*) AS pair_count, count(*) / 500.0 AS share FROM p GROUP BY outcome",
+        "filters": ["all 500 rows", "no exclusions"]
+      }
+    },
+    {
+      "id": "cfr_curve",
+      "label": "OpenSpiel CFR+ convergence curve",
+      "path": "artifacts/cfr_plus_kuhn.csv",
+      "query": {
+        "engine": "duckdb",
+        "description": "Selects the final exact-exploitability checkpoint from the OpenSpiel CFR+ curve.",
+        "sql": "SELECT iteration, exploitability, elapsed_seconds FROM read_csv_auto('artifacts/cfr_plus_kuhn.csv') ORDER BY iteration DESC LIMIT 1",
+        "filters": ["game = kuhn_poker", "algorithm = CFR+", "iteration = 10000"]
+      }
+    },
+    {
+      "id": "report_evidence",
+      "label": "Аудит репозитория и экспериментальные manifests",
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "query": {"engine": "artifact-snapshot", "description": "Reviewed claim-status matrix assembled from the repository audit and immutable run manifests.", "sql": "SELECT * FROM snapshot.evidence ORDER BY \"order\""}
+    },
+    {
+      "id": "quality_checks_source",
+      "label": "Финальный manifest и QA-проверки",
+      "path": "artifacts/confirmatory_equity_v1_source_frozen/manifest.json",
+      "query": {"engine": "artifact-snapshot", "description": "Reviewed completeness, pairing, accounting, failure, and checksum checks.", "sql": "SELECT * FROM snapshot.quality_checks ORDER BY \"order\""}
+    }
+  ]
+}

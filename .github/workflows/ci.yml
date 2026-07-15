@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          version: "0.11.28"
+          python-version: "3.12"
+          enable-cache: true
+      - name: Install locked dependencies
+        run: uv sync --locked --all-extras
+      - name: Lint the research layer
+        run: uv run ruff check poker_research tests/research tests/legacy_compat.py
+      - name: Type-check the research layer
+        run: uv run mypy poker_research
+      - name: Run tests
+        run: uv run pytest --cov=poker_research --cov-report=term-missing

@@ -1,7 +1,6 @@
 services:
-  pypokerengine:
+  poker-research:
     build: .
-    container_name: pypokerengine
     volumes:
-      - .:/app  
-    command: python3 example_game.py
+      - ./artifacts:/app/artifacts
+    command: ["uv", "run", "poker-benchmark", "--help"]

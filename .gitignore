@@ -6,3 +6,13 @@ dist
 build
 docs/site/*
 .env
+.DS_Store
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+artifacts/
+htmlcov/
+*.log

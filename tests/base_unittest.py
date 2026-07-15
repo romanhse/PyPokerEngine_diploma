@@ -1,6 +1,5 @@
 import unittest
 from mock import Mock
-from nose.tools import *
 
 class BaseUnitTest(unittest.TestCase):
 
@@ -15,4 +14,3 @@ class BaseUnitTest(unittest.TestCase):
 
   def false(self, target):
     return self.assertFalse(target)
-

@@ -2,7 +2,7 @@ from tests.base_unittest import BaseUnitTest
 from pypokerengine.engine.card import Card
 from pypokerengine.engine.player import Player
 from pypokerengine.engine.poker_constants import PokerConstants as Const
-from nose.tools import *
+from tests.legacy_compat import raises
 
 class PlayerTest(BaseUnitTest):
 
@@ -186,4 +186,3 @@ class PlayerTest(BaseUnitTest):
     player.pay_info.update_by_pay(15)
     player.pay_info.update_to_fold()
     return player
-

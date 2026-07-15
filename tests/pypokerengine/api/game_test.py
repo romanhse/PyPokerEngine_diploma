@@ -1,6 +1,6 @@
 import pypokerengine.api.game as G
 
-from nose.tools import raises
+from tests.legacy_compat import raises
 from tests.base_unittest import BaseUnitTest
 from examples.players.fold_man import FoldMan
 
@@ -55,4 +55,3 @@ class GameTest(BaseUnitTest):
     def test_register_player_when_invalid(self):
         config = G.setup_config(1, 100, 10)
         config.register_player("p1", "dummy")
-

@@ -1,5 +1,5 @@
 from tests.base_unittest import BaseUnitTest
-from nose.tools import *
+from tests.legacy_compat import raises
 
 from pypokerengine.engine.card import Card
 from pypokerengine.engine.pay_info import PayInfo
@@ -103,4 +103,3 @@ class TableTest(BaseUnitTest):
     for player in [p1, p2, p3]:
       table.seats.sitdown(player)
     return table
-

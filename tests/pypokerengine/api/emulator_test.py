@@ -1,7 +1,7 @@
 from collections import OrderedDict
 from functools import reduce
 
-from nose.tools import raises
+from tests.legacy_compat import raises
 from tests.base_unittest import BaseUnitTest
 from pypokerengine.api.emulator import Emulator, Event
 from pypokerengine.utils.game_state_utils import restore_game_state, attach_hole_card,\
@@ -599,4 +599,3 @@ class ThreePlayerGameStateSample:
     p1_pay_info = [0, 60]
     p2_pay_info = [1, 50]
     p3_pay_info = [0, 70]
-

@@ -1,0 +1,13 @@
+.git
+.github
+.idea
+.venv
+.vscode
+__pycache__
+artifacts
+build
+dist
+graphs
+logs
+*.pyc
+*.pt

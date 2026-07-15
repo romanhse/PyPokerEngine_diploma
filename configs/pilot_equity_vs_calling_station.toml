@@ -1,0 +1,33 @@
+[experiment]
+name = "pilot-equity-v2-strict-vs-calling-station"
+mode = "pilot"
+master_seed = 1807202601
+pair_count = 100
+practical_margin_bb100 = 0.0
+bootstrap_resamples = 20000
+bootstrap_seed = 1807202699
+policy_schedule_seed = 1807202677
+
+[game]
+starting_stack = 200
+small_blind = 1
+big_blind = 2
+ante = 0
+
+[hero]
+policy = "equity_value_v1"
+seed = 101
+
+[opponent]
+policy = "calling_station_v1"
+
+[equity_value]
+preflop_samples = 256
+postflop_samples = 384
+call_margin = 0.015
+preflop_raise_equity = 0.60
+flop_raise_equity = 0.61
+turn_raise_equity = 0.59
+river_raise_equity = 0.53
+strong_equity = 0.70
+nut_equity = 0.84
